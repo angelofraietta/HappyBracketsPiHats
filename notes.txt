@@ -2,3 +2,6 @@ Ideas for PWM from
 https://www.youtube.com/watch?v=ENUb4leJ_rM
 
 Ferrite beads https://au.rs-online.com/web/p/ferrite-beads/2303907/
+
+47Uf https://au.element14.com/avx/tajb476k010rnj/cap-47-f-10v-10-smd/dp/1432366?st=47uf%20smd
+

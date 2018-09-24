@@ -10952,11 +10952,11 @@ LGA-16L (3 x 3 x 0.86 mm) typ.</description>
 </net>
 <net name="PWM-RIGHT" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="GPIO13"/>
-<wire x1="-228.6" y1="88.9" x2="-233.68" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="-233.68" y1="88.9" x2="-233.68" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-233.68" y1="66.04" x2="-226.06" y2="66.04" width="0.1524" layer="91"/>
 <label x="-226.06" y="66.04" size="1.778" layer="95" xref="yes"/>
+<pinref part="U$1" gate="G$1" pin="GPIO19"/>
+<wire x1="-228.6" y1="86.36" x2="-233.68" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-233.68" y1="86.36" x2="-233.68" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-154.94" y1="86.36" x2="-157.48" y2="86.36" width="0.1524" layer="91"/>
@@ -10991,8 +10991,11 @@ LGA-16L (3 x 3 x 0.86 mm) typ.</description>
 <net name="N$1" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="-116.84" y1="119.38" x2="-99.06" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="119.38" x2="-114.3" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="+"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="-114.3" y1="119.38" x2="-99.06" y2="119.38" width="0.1524" layer="91"/>
+<junction x="-114.3" y="119.38"/>
 </segment>
 </net>
 <net name="AUDIO-L" class="0">
