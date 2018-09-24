@@ -11069,7 +11069,7 @@ See https://au.rs-online.com/web/p/ferrite-beads/2303907/</description>
 <connect gate="G$1" pin="21-BSNR" pad="21"/>
 <connect gate="G$1" pin="22-BSNL" pad="22"/>
 <connect gate="G$1" pin="23-OUTNL" pad="23"/>
-<connect gate="G$1" pin="24-GND" pad="24"/>
+<connect gate="G$1" pin="24-GND" pad="24 GND@10 GND@11 GND@12 GND@13 GND@14 GND@15 GND@16 GND@17 GND@18 GND@19 GND@20 GND@21 GND@22 GND@23 GND@24 GND@25 GND@26 GND@27 GND@28 GND@29 GND@30 GND@PAD"/>
 <connect gate="G$1" pin="25-OUTPL" pad="25"/>
 <connect gate="G$1" pin="26-BSPL" pad="26"/>
 <connect gate="G$1" pin="27-PVCC" pad="27"/>
@@ -15277,7 +15277,23 @@ Source: AVX .. aphvc.pdf</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.1524" drill="0">
+<clearance class="0" value="0.1524"/>
+</class>
+<class number="2" name="PWM-LEFT" width="0.3048" drill="0.508">
+<clearance class="2" value="0.508"/>
+</class>
+<class number="3" name="PWM-RIGHT" width="0.3048" drill="0.508">
+<clearance class="3" value="0.508"/>
+</class>
+<class number="4" name="AUDIO-L" width="0.3048" drill="0.508">
+<clearance class="4" value="0.508"/>
+</class>
+<class number="5" name="AUDIO-R" width="0.3048" drill="0.508">
+<clearance class="5" value="0.508"/>
+</class>
+<class number="6" name="+5V" width="0.508" drill="0.508">
+<clearance class="6" value="0.254"/>
 </class>
 </classes>
 <parts>
