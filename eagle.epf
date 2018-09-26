@@ -355,9 +355,17 @@ UsedLibrary="/Users/angelofraietta/Documents/EAGLE/libraries/diy-modules.lbr"
 UsedLibrary="/Users/angelofraietta/Documents/EAGLE/libraries/fairchild.lbr"
 
 [Win_1]
+Type="Text Editor"
+Number=3
+File="notes.txt"
+CursorPos="11 1"
+Font="Artifakt Element Book,11,-1,5,50,0,0,0,0,0"
+
+[Win_2]
 Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1440 900"
+Screen="3360 1080"
 Window="Win_1"
+Window="Win_2"
