@@ -6,3 +6,7 @@ Ferrite beads https://au.rs-online.com/web/p/ferrite-beads/2303907/
 47Uf https://au.element14.com/avx/tajb476k010rnj/cap-47-f-10v-10-smd/dp/1432366?st=47uf%20smd
 
 Examples of ferrite beads which have been tested and work well with the TPA3144D2 include NFZ2MSM series from Murata.
+https://www.digikey.com.au/product-detail/en/murata-electronics-north-america/NFZ2MSM301SN10L/490-14481-1-ND/6606942
+
+https://au.rs-online.com/web/p/ferrite-beads/7241532/
+	
