@@ -14536,7 +14536,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="R6" library="adafruit" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R8" library="adafruit" deviceset="R-US_" device="R0603" value="220"/>
 <part name="R9" library="adafruit" deviceset="R-US_" device="R0603" value="100"/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="U3" library="fairchild" deviceset="NC7WZ16" device=""/>
 <part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -14546,21 +14546,21 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="+3V34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
-<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R3" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="R4" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
-<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U1" library="adafruit" deviceset="TXB0104PWR" device="" value="TXB0104PWR"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="J2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="4X1-LOCKING" device=""/>
+<part name="J4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="4X1-LOCKING" device=""/>
 <part name="U5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="TPA3144D2PWPR" device="" package3d_urn="urn:adsk.eagle:package:39216/1"/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="C11" library="adafruit" deviceset="CPOL-US" device="CT3528" value="100uF"/>
 <part name="R11" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
@@ -14569,7 +14569,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="R19" library="adafruit" deviceset="R-US_" device="R0603" value="10R"/>
-<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="C26" library="adafruit" deviceset="CPOL-US" device="CT3528" value="100UF"/>
 <part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF"/>
@@ -14592,9 +14592,9 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="R17" library="adafruit" deviceset="R-US_" device="R0603" value="33K"/>
 <part name="R18" library="adafruit" deviceset="R-US_" device="R0603" value="33K"/>
 <part name="+3V35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SH1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="SHORT" device=""/>
 <part name="SH2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="SHORT" device=""/>
 <part name="+3V36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -14610,28 +14610,28 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="AGND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="AGND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="AGND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="LED1" library="adafruit" deviceset="LED" device="CHIP-LED0805"/>
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIP-LED0805" value="RED"/>
 <part name="R2" library="adafruit" deviceset="R-US_" device="R0603" value="220"/>
 <part name="R1" library="adafruit" deviceset="R-US_" device="R0603" value="220"/>
-<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="JP1" library="adafruit" deviceset="PINHD-1X3" device=""/>
-<part name="J1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="2X1-LOCKING" device=""/>
-<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="JP1" library="adafruit" deviceset="PINHD-1X3" device="" value="Header 1x3"/>
+<part name="J3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="2X1-LOCKING" device=""/>
+<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="AGND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="Q1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="DMG2305UX" device="" package3d_urn="urn:adsk.eagle:package:21294/1"/>
 <part name="U4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="DMMT5401" device="" package3d_urn="urn:adsk.eagle:package:38460/1"/>
 <part name="R12" library="adafruit" deviceset="R-US_" device="R0603" value="47K"/>
 <part name="R13" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="AGND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="J3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="GROVE" device=""/>
-<part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="2X2HEADER" device=""/>
-<part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="J1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="GROVE" device=""/>
+<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="J2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="2X2HEADER" device=""/>
+<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14653,7 +14653,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <instance part="R6" gate="G$1" x="-274.32" y="182.88" rot="R90"/>
 <instance part="R8" gate="G$1" x="-281.94" y="149.86" rot="R180"/>
 <instance part="R9" gate="G$1" x="-274.32" y="144.78" rot="R90"/>
-<instance part="P+2" gate="1" x="-325.12" y="195.58" smashed="yes" rot="R270">
+<instance part="P+3" gate="1" x="-325.12" y="195.58" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-322.58" y="195.58" size="1.778" layer="96"/>
 </instance>
 <instance part="U3" gate="G$1" x="-304.8" y="157.48"/>
@@ -14667,14 +14667,14 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="VALUE" x="-426.72" y="203.2" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="C1" gate="G$1" x="-383.54" y="210.82" rot="R90"/>
-<instance part="SUPPLY2" gate="GND" x="-375.92" y="208.28"/>
+<instance part="SUPPLY3" gate="GND" x="-375.92" y="208.28"/>
 <instance part="R3" gate="G$1" x="-444.5" y="190.5" rot="R270"/>
 <instance part="R4" gate="G$1" x="-436.88" y="190.5" rot="R270"/>
-<instance part="SUPPLY9" gate="GND" x="-414.02" y="154.94" smashed="yes"/>
-<instance part="SUPPLY8" gate="GND" x="-406.4" y="162.56" smashed="yes"/>
-<instance part="SUPPLY11" gate="GND" x="-441.96" y="129.54" smashed="yes"/>
+<instance part="SUPPLY10" gate="GND" x="-414.02" y="154.94" smashed="yes"/>
+<instance part="SUPPLY9" gate="GND" x="-406.4" y="162.56" smashed="yes"/>
+<instance part="SUPPLY12" gate="GND" x="-441.96" y="129.54" smashed="yes"/>
 <instance part="C2" gate="G$1" x="-335.28" y="200.66" rot="R180"/>
-<instance part="SUPPLY3" gate="GND" x="-330.2" y="205.74" smashed="yes"/>
+<instance part="SUPPLY4" gate="GND" x="-330.2" y="205.74" smashed="yes"/>
 <instance part="U1" gate="G$1" x="-279.4" y="218.44"/>
 <instance part="SUPPLY5" gate="GND" x="-279.4" y="200.66" smashed="yes">
 <attribute name="VALUE" x="-281.305" y="197.485" size="1.778" layer="96"/>
@@ -14683,11 +14683,11 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <instance part="+3V31" gate="G$1" x="-287.02" y="238.76" smashed="yes">
 <attribute name="VALUE" x="-284.226" y="241.3" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J2" gate="G$1" x="-320.294" y="72.136" smashed="yes" rot="MR180">
+<instance part="J4" gate="G$1" x="-320.294" y="72.136" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-315.214" y="67.056" size="1.27" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="U5" gate="G$1" x="-403.86" y="86.36"/>
-<instance part="P+3" gate="1" x="-358.14" y="124.46" rot="R270"/>
+<instance part="P+4" gate="1" x="-358.14" y="124.46" rot="R270"/>
 <instance part="C10" gate="G$1" x="-378.46" y="121.92"/>
 <instance part="C11" gate="G$1" x="-367.792" y="121.92"/>
 <instance part="R11" gate="G$1" x="-441.96" y="109.22"/>
@@ -14705,7 +14705,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="VALUE" x="-438.912" y="56.261" size="1.778" layer="96"/>
 </instance>
 <instance part="R19" gate="G$1" x="-421.64" y="30.48"/>
-<instance part="P+5" gate="1" x="-358.14" y="30.48" rot="R270"/>
+<instance part="P+6" gate="1" x="-358.14" y="30.48" rot="R270"/>
 <instance part="C25" gate="G$1" x="-378.46" y="27.94"/>
 <instance part="C26" gate="G$1" x="-367.792" y="27.94"/>
 <instance part="C24" gate="G$1" x="-388.62" y="27.94"/>
@@ -14768,9 +14768,9 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <instance part="+3V35" gate="G$1" x="-393.7" y="177.8" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-394.716" y="178.816" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY4" gate="GND" x="-220.98" y="195.58" smashed="yes"/>
-<instance part="SUPPLY7" gate="GND" x="-335.28" y="172.72" smashed="yes"/>
-<instance part="SUPPLY6" gate="GND" x="-411.48" y="185.42" smashed="yes"/>
+<instance part="SUPPLY6" gate="GND" x="-220.98" y="195.58" smashed="yes"/>
+<instance part="SUPPLY8" gate="GND" x="-335.28" y="172.72" smashed="yes"/>
+<instance part="SUPPLY7" gate="GND" x="-411.48" y="185.42" smashed="yes"/>
 <instance part="SH1" gate="G$1" x="-302.26" y="175.26" rot="R180"/>
 <instance part="SH2" gate="G$1" x="-419.1" y="17.78" rot="R180"/>
 <instance part="+3V36" gate="G$1" x="-322.58" y="175.26" rot="R90"/>
@@ -14786,22 +14786,25 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <instance part="AGND11" gate="VR1" x="-482.6" y="60.96"/>
 <instance part="AGND6" gate="VR1" x="-454.66" y="91.44"/>
 <instance part="AGND15" gate="VR1" x="-363.22" y="20.32"/>
-<instance part="SUPPLY12" gate="GND" x="-438.15" y="15.24" smashed="yes"/>
+<instance part="SUPPLY13" gate="GND" x="-438.15" y="15.24" smashed="yes"/>
 <instance part="AGND16" gate="VR1" x="-408.94" y="15.24"/>
-<instance part="SUPPLY10" gate="GND" x="-391.16" y="144.78" smashed="yes"/>
+<instance part="SUPPLY11" gate="GND" x="-391.16" y="144.78" smashed="yes"/>
 <instance part="AGND14" gate="VR1" x="-407.67" y="23.622"/>
 <instance part="LED1" gate="G$1" x="-345.44" y="228.6"/>
 <instance part="R2" gate="G$1" x="-345.44" y="218.44" rot="R90"/>
 <instance part="R1" gate="G$1" x="-332.74" y="226.06" rot="R90"/>
-<instance part="SUPPLY1" gate="GND" x="-345.44" y="210.82" smashed="yes">
+<instance part="SUPPLY2" gate="GND" x="-345.44" y="210.82" smashed="yes">
 <attribute name="VALUE" x="-347.345" y="207.645" size="1.778" layer="96"/>
 </instance>
 <instance part="+3V32" gate="G$1" x="-345.44" y="233.68" smashed="yes">
 <attribute name="VALUE" x="-342.646" y="236.22" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="JP1" gate="A" x="-314.96" y="226.06"/>
-<instance part="J1" gate="G$1" x="-297.18" y="116.84" rot="MR0"/>
-<instance part="P+4" gate="1" x="-256.54" y="119.38" smashed="yes" rot="R270">
+<instance part="JP1" gate="A" x="-314.96" y="226.06" smashed="yes">
+<attribute name="NAME" x="-321.31" y="231.775" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-321.31" y="238.76" size="1.778" layer="96"/>
+</instance>
+<instance part="J3" gate="G$1" x="-297.18" y="116.84" rot="MR0"/>
+<instance part="P+5" gate="1" x="-256.54" y="119.38" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-254" y="119.38" size="1.778" layer="96"/>
 </instance>
 <instance part="AGND5" gate="VR1" x="-292.1" y="109.22"/>
@@ -14816,10 +14819,10 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <instance part="R12" gate="G$1" x="-287.02" y="88.9" rot="R270"/>
 <instance part="R13" gate="G$1" x="-269.24" y="88.9" rot="R270"/>
 <instance part="AGND9" gate="VR1" x="-269.24" y="78.74"/>
-<instance part="J3" gate="G$1" x="-226.06" y="220.98" rot="MR180"/>
-<instance part="SUPPLY13" gate="GND" x="-231.14" y="228.6" smashed="yes" rot="R180"/>
-<instance part="J4" gate="G$1" x="-231.14" y="198.12"/>
-<instance part="P+6" gate="1" x="-241.3" y="223.52" smashed="yes" rot="R90">
+<instance part="J1" gate="G$1" x="-226.06" y="220.98" rot="MR180"/>
+<instance part="SUPPLY1" gate="GND" x="-231.14" y="228.6" smashed="yes" rot="R180"/>
+<instance part="J2" gate="G$1" x="-231.14" y="198.12"/>
+<instance part="P+2" gate="1" x="-241.3" y="223.52" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-241.3" y="226.06" size="1.778" layer="96" rot="R180"/>
 </instance>
 </instances>
@@ -14848,7 +14851,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <junction x="-337.82" y="175.26"/>
 <junction x="-337.82" y="162.56"/>
 <wire x1="-337.82" y1="175.26" x2="-335.28" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="SUPPLY7" gate="GND" pin="GND"/>
+<pinref part="SUPPLY8" gate="GND" pin="GND"/>
 <wire x1="-337.82" y1="193.04" x2="-337.82" y2="182.88" width="0.1524" layer="91"/>
 <junction x="-337.82" y="182.88"/>
 </segment>
@@ -14858,29 +14861,29 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pinref part="CON1" gate="G$1" pin="GND@2"/>
 <wire x1="-388.62" y1="167.64" x2="-391.16" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="-391.16" y1="167.64" x2="-391.16" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="SUPPLY10" gate="GND" pin="GND"/>
+<pinref part="SUPPLY11" gate="GND" pin="GND"/>
 <junction x="-391.16" y="149.86"/>
 <wire x1="-391.16" y1="149.86" x2="-391.16" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CON1" gate="G$1" pin="GND@1"/>
 <wire x1="-388.62" y1="187.96" x2="-411.48" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="SUPPLY6" gate="GND" pin="GND"/>
+<pinref part="SUPPLY7" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="SUPPLY2" gate="GND" pin="GND"/>
+<pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <wire x1="-378.46" y1="210.82" x2="-375.92" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="RES5"/>
 <wire x1="-419.1" y1="157.48" x2="-414.02" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="SUPPLY9" gate="GND" pin="GND"/>
+<pinref part="SUPPLY10" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="-406.4" y1="167.64" x2="-406.4" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="SUPPLY8" gate="GND" pin="GND"/>
+<pinref part="SUPPLY9" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="GND2"/>
@@ -14900,27 +14903,27 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <junction x="-459.74" y="132.08"/>
 <pinref part="U2" gate="G$1" pin="RES1"/>
 <wire x1="-469.9" y1="132.08" x2="-469.9" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="SUPPLY11" gate="GND" pin="GND"/>
+<pinref part="SUPPLY12" gate="GND" pin="GND"/>
 <junction x="-441.96" y="132.08"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="-335.28" y1="205.74" x2="-335.28" y2="208.28" width="0.1524" layer="91"/>
 <wire x1="-335.28" y1="208.28" x2="-330.2" y2="208.28" width="0.1524" layer="91"/>
-<pinref part="SUPPLY3" gate="GND" pin="GND"/>
+<pinref part="SUPPLY4" gate="GND" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SUPPLY12" gate="GND" pin="GND"/>
+<pinref part="SUPPLY13" gate="GND" pin="GND"/>
 <pinref part="SH2" gate="G$1" pin="DIG"/>
 <wire x1="-438.15" y1="17.78" x2="-434.594" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="SUPPLY1" gate="GND" pin="GND"/>
+<pinref part="SUPPLY2" gate="GND" pin="GND"/>
 <wire x1="-345.44" y1="213.36" x2="-332.74" y2="213.36" width="0.1524" layer="91"/>
 <junction x="-345.44" y="213.36"/>
 <wire x1="-332.74" y1="213.36" x2="-317.5" y2="213.36" width="0.1524" layer="91"/>
@@ -14928,14 +14931,14 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <wire x1="-317.5" y1="213.36" x2="-317.5" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<pinref part="SUPPLY13" gate="GND" pin="GND"/>
+<pinref part="J1" gate="G$1" pin="4"/>
+<pinref part="SUPPLY1" gate="GND" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="2"/>
-<pinref part="SUPPLY4" gate="GND" pin="GND"/>
+<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="SUPPLY6" gate="GND" pin="GND"/>
 <wire x1="-220.98" y1="203.2" x2="-220.98" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="4"/>
+<pinref part="J2" gate="G$1" pin="4"/>
 <wire x1="-220.98" y1="200.66" x2="-220.98" y2="198.12" width="0.1524" layer="91"/>
 <junction x="-220.98" y="200.66"/>
 </segment>
@@ -14969,7 +14972,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <net name="+5V" class="0">
 <segment>
 <pinref part="CON1" gate="G$1" pin="5V0@2"/>
-<pinref part="P+2" gate="1" pin="+5V"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
 <wire x1="-340.36" y1="195.58" x2="-335.28" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="G$1" pin="5V0@1"/>
 <wire x1="-335.28" y1="195.58" x2="-327.66" y2="195.58" width="0.1524" layer="91"/>
@@ -14991,7 +14994,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <wire x1="-393.7" y1="109.22" x2="-393.7" y2="124.46" width="0.1524" layer="91"/>
 <junction x="-393.7" y="109.22"/>
 <wire x1="-393.7" y1="124.46" x2="-388.62" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="P+3" gate="1" pin="+5V"/>
+<pinref part="P+4" gate="1" pin="+5V"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <wire x1="-388.62" y1="124.46" x2="-378.46" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="-378.46" y1="124.46" x2="-367.792" y2="124.46" width="0.1524" layer="91"/>
@@ -15003,7 +15006,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <junction x="-388.62" y="124.46"/>
 </segment>
 <segment>
-<pinref part="P+5" gate="1" pin="+5V"/>
+<pinref part="P+6" gate="1" pin="+5V"/>
 <pinref part="C25" gate="G$1" pin="1"/>
 <wire x1="-388.62" y1="30.48" x2="-378.46" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="-378.46" y1="30.48" x2="-367.792" y2="30.48" width="0.1524" layer="91"/>
@@ -15024,7 +15027,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <junction x="-393.7" y="30.48"/>
 </segment>
 <segment>
-<pinref part="P+4" gate="1" pin="+5V"/>
+<pinref part="P+5" gate="1" pin="+5V"/>
 <wire x1="-261.62" y1="119.38" x2="-259.08" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="-269.24" y1="119.38" x2="-261.62" y2="119.38" width="0.1524" layer="91"/>
@@ -15033,8 +15036,8 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <junction x="-269.24" y="119.38"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<pinref part="P+6" gate="1" pin="+5V"/>
+<pinref part="J1" gate="G$1" pin="3"/>
+<pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="-238.76" y1="223.52" x2="-231.14" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -15242,7 +15245,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <junction x="-353.06" y="78.74"/>
 <label x="-330.2" y="76.2" size="1.778" layer="95"/>
 <wire x1="-353.06" y1="78.74" x2="-332.74" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="3"/>
+<pinref part="J4" gate="G$1" pin="3"/>
 <wire x1="-332.74" y1="78.74" x2="-332.74" y2="74.676" width="0.1524" layer="91"/>
 <wire x1="-332.74" y1="74.676" x2="-325.374" y2="74.676" width="0.1524" layer="91"/>
 </segment>
@@ -15252,7 +15255,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pinref part="C14" gate="G$1" pin="1"/>
 <pinref part="L1" gate="G$1" pin="2"/>
 <label x="-330.2" y="79.756" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="4"/>
+<pinref part="J4" gate="G$1" pin="4"/>
 <wire x1="-325.374" y1="77.216" x2="-325.374" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-325.374" y1="93.98" x2="-353.06" y2="93.98" width="0.1524" layer="91"/>
 <junction x="-353.06" y="93.98"/>
@@ -15267,7 +15270,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <junction x="-353.06" y="68.58"/>
 <wire x1="-353.06" y1="68.58" x2="-332.74" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-332.74" y1="68.58" x2="-332.74" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="-332.74" y1="71.12" x2="-332.74" y2="72.136" width="0.1524" layer="91"/>
 <wire x1="-332.74" y1="72.136" x2="-325.374" y2="72.136" width="0.1524" layer="91"/>
 </segment>
@@ -15277,7 +15280,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pinref part="C21" gate="G$1" pin="2"/>
 <pinref part="L4" gate="G$1" pin="2"/>
 <label x="-330.2" y="66.04" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="-325.374" y1="69.596" x2="-325.374" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-325.374" y1="53.34" x2="-353.06" y2="53.34" width="0.1524" layer="91"/>
 <junction x="-353.06" y="53.34"/>
@@ -15441,7 +15444,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="B1"/>
 <wire x1="-264.16" y1="220.98" x2="-251.46" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="-251.46" y1="220.98" x2="-231.14" y2="220.98" width="0.1524" layer="91"/>
 <label x="-261.62" y="220.98" size="1.778" layer="95"/>
 </segment>
@@ -15450,7 +15453,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="B2"/>
 <wire x1="-264.16" y1="218.44" x2="-246.38" y2="218.44" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="-231.14" y1="218.44" x2="-246.38" y2="218.44" width="0.1524" layer="91"/>
 <label x="-261.62" y="218.44" size="1.778" layer="95"/>
 </segment>
@@ -15459,7 +15462,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="B3"/>
 <wire x1="-264.16" y1="215.9" x2="-251.46" y2="215.9" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="-241.3" y1="203.2" x2="-248.92" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="-248.92" y1="203.2" x2="-248.92" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="-248.92" y1="215.9" x2="-251.46" y2="215.9" width="0.1524" layer="91"/>
@@ -15471,7 +15474,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pinref part="U1" gate="G$1" pin="B4"/>
 <wire x1="-264.16" y1="213.36" x2="-251.46" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="-251.46" y1="213.36" x2="-251.46" y2="200.66" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="3"/>
+<pinref part="J2" gate="G$1" pin="3"/>
 <wire x1="-251.46" y1="200.66" x2="-241.3" y2="200.66" width="0.1524" layer="91"/>
 <label x="-261.62" y="213.36" size="1.778" layer="95"/>
 </segment>
@@ -15665,7 +15668,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <wire x1="-269.24" y1="83.82" x2="-269.24" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="2"/>
+<pinref part="J3" gate="G$1" pin="2"/>
 <pinref part="AGND5" gate="VR1" pin="AGND"/>
 <wire x1="-292.1" y1="116.84" x2="-292.1" y2="111.76" width="0.1524" layer="91"/>
 </segment>
@@ -15727,7 +15730,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <wire x1="-287.02" y1="119.38" x2="-281.94" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="-287.02" y1="109.22" x2="-287.02" y2="119.38" width="0.1524" layer="91"/>
 <junction x="-287.02" y="119.38"/>
-<pinref part="J1" gate="G$1" pin="1"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 <wire x1="-292.1" y1="119.38" x2="-287.02" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
