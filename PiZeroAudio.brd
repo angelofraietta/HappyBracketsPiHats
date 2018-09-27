@@ -8,7 +8,7 @@
 </settings>
 <grid distance="2" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -33,7 +33,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -210,6 +210,14 @@
 <wire x1="-15.24" y1="10.8712" x2="-15.24" y2="13.462" width="0.1016" layer="25"/>
 <wire x1="-14.5288" y1="13.462" x2="-14.5288" y2="8.2804" width="0.1016" layer="25"/>
 <wire x1="-15.24" y1="10.8712" x2="-13.9192" y2="10.8712" width="0.1016" layer="25"/>
+<wire x1="-78.6384" y1="25.7048" x2="-74.422" y2="25.7048" width="0.1524" layer="25"/>
+<wire x1="-74.422" y1="25.7048" x2="-74.3712" y2="25.654" width="0.1524" layer="25"/>
+<wire x1="-74.3712" y1="25.654" x2="-74.3712" y2="19.304" width="0.1524" layer="25"/>
+<wire x1="-74.3712" y1="19.304" x2="-74.3204" y2="19.2532" width="0.1524" layer="25"/>
+<wire x1="-74.3204" y1="19.2532" x2="-78.6384" y2="19.2532" width="0.1524" layer="25"/>
+<wire x1="-78.6384" y1="19.2532" x2="-78.6384" y2="25.7048" width="0.1524" layer="25"/>
+<text x="-77.5716" y="19.5072" size="0.3048" layer="25" rot="R90">Pi Zero PWM + IMU
+(C) 2018 UNSW Art and Design</text>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -2121,7 +2129,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-57.531" y="23.7744" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF" x="-73.279" y="22.479" smashed="yes" rot="R90">
-<attribute name="NAME" x="-74.4728" y="23.2664" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-72.5932" y="20.8788" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-73.279" y="22.479" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U1" library="adafruit" package="TSSOP14" value="TXB0104PWR" x="-24.384" y="22.352" smashed="yes" rot="R270">
@@ -2132,7 +2140,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-80.5434" y="18.8722" size="1.016" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="U5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="HTSSOP28" package3d_urn="urn:adsk.eagle:package:39216/1" value="TPA3144D2PWPR" x="-52.197" y="11.303" smashed="yes" rot="R90">
-<attribute name="NAME" x="-55.499" y="17.145" size="0.8128" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="-52.9082" y="5.207" size="0.8128" layer="25" font="vector" ratio="15"/>
 </element>
 <element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF" x="-58.801" y="3.7721" smashed="yes" rot="R270">
 <attribute name="NAME" x="-58.0898" y="2.3905" size="0.8128" layer="25" rot="R180"/>
@@ -3677,6 +3685,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
