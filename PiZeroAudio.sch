@@ -6927,6 +6927,35 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 </package>
+<package name="VFSOP-8">
+<description>&lt;b&gt;VFSOP8&lt;/b&gt; - 0.5mm pitch, 2.0x2.3mm
+&lt;p&gt;Source: http://focus.ti.com/lit/ds/symlink/txs0102.pdf&lt;/p&gt;</description>
+<wire x1="1" y1="1.15" x2="1" y2="-1.15" width="0.127" layer="51"/>
+<wire x1="1" y1="-1.15" x2="-1" y2="-1.15" width="0.127" layer="51"/>
+<wire x1="-1" y1="-1.15" x2="-1" y2="1.15" width="0.127" layer="51"/>
+<wire x1="-1" y1="1.15" x2="1" y2="1.15" width="0.127" layer="51"/>
+<wire x1="-1" y1="-1.15" x2="-1" y2="1.15" width="0.127" layer="21"/>
+<wire x1="1" y1="-1.15" x2="1" y2="1.15" width="0.127" layer="21"/>
+<circle x="-1.55" y="-0.8" radius="0.15" width="0.3048" layer="21"/>
+<smd name="P$1" x="-0.75" y="-1.45" dx="0.65" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$2" x="-0.25" y="-1.45" dx="0.65" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$3" x="0.25" y="-1.45" dx="0.65" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$4" x="0.75" y="-1.45" dx="0.65" dy="0.25" layer="1" rot="R90"/>
+<smd name="P$5" x="0.75" y="1.45" dx="0.65" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$6" x="0.25" y="1.45" dx="0.65" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$7" x="-0.25" y="1.45" dx="0.65" dy="0.25" layer="1" rot="R270"/>
+<smd name="P$8" x="-0.75" y="1.45" dx="0.65" dy="0.25" layer="1" rot="R270"/>
+<text x="-0.6" y="-0.9" size="0.254" layer="25" rot="R90">&gt;NAME</text>
+<text x="-0.25" y="-0.9" size="0.254" layer="25" rot="R90">&gt;VALUE</text>
+<rectangle x1="-0.35" y1="-1.55" x2="-0.15" y2="-1.15" layer="51"/>
+<rectangle x1="-0.85" y1="-1.55" x2="-0.65" y2="-1.15" layer="51"/>
+<rectangle x1="0.15" y1="-1.55" x2="0.35" y2="-1.15" layer="51"/>
+<rectangle x1="0.65" y1="-1.55" x2="0.85" y2="-1.15" layer="51"/>
+<rectangle x1="0.65" y1="1.15" x2="0.85" y2="1.55" layer="51"/>
+<rectangle x1="0.15" y1="1.15" x2="0.35" y2="1.55" layer="51"/>
+<rectangle x1="-0.35" y1="1.15" x2="-0.15" y2="1.55" layer="51"/>
+<rectangle x1="-0.85" y1="1.15" x2="-0.65" y2="1.55" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="CPOL-US">
@@ -7019,6 +7048,30 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
+<symbol name="TXS0102">
+<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="-2.54" y2="-10.16" width="0.127" layer="97" style="shortdash"/>
+<wire x1="-2.54" y1="-10.16" x2="-2.54" y2="0" width="0.127" layer="97" style="shortdash"/>
+<wire x1="-2.54" y1="0" x2="-12.7" y2="0" width="0.127" layer="97" style="shortdash"/>
+<wire x1="12.7" y1="0" x2="2.54" y2="0" width="0.127" layer="97" style="shortdash"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-10.16" width="0.127" layer="97" style="shortdash"/>
+<wire x1="2.54" y1="-10.16" x2="12.7" y2="-10.16" width="0.127" layer="97" style="shortdash"/>
+<text x="-12.7" y="12.7" size="1.27" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-11.43" y="-8.89" size="1.27" layer="97">1.2-3.6V</text>
+<text x="3.175" y="-8.89" size="1.27" layer="97">1.65-5.5V</text>
+<pin name="VCCA" x="-2.54" y="12.7" length="short" rot="R270"/>
+<pin name="A1" x="-15.24" y="-2.54" length="short"/>
+<pin name="A2" x="-15.24" y="-5.08" length="short"/>
+<pin name="GND" x="0" y="-15.24" length="short" rot="R90"/>
+<pin name="VCCB" x="2.54" y="12.7" length="short" rot="R270"/>
+<pin name="B1" x="15.24" y="-2.54" length="short" rot="R180"/>
+<pin name="B2" x="15.24" y="-5.08" length="short" rot="R180"/>
+<pin name="OE" x="-15.24" y="2.54" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -9255,6 +9308,35 @@ Source: http://www.osram.convergy.de/</description>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
 <connect gate="A" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TXS0102" prefix="U" uservalue="yes">
+<description>&lt;b&gt;2-Bit Bi-Directional Level Shifter (I2C, etc.)&lt;/b&gt;
+&lt;p&gt;Designed for I2C devices and has internal pullups.  Not to be confused with TX&lt;b&gt;B&lt;/b&gt;010x series.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;1.2V-3.6V (VCCA) to 1.65V-5.5V (VCCB) bi-directional level shifter with auto direction sensing.&lt;/li&gt;
+  &lt;li&gt;Max data rate - 24Mbps (Push Pull), 2Mbps (Open Drain)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Digikey: 296-21931-1-ND&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TXS0102" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="VFSOP-8">
+<connects>
+<connect gate="G$1" pin="A1" pad="P$5"/>
+<connect gate="G$1" pin="A2" pad="P$4"/>
+<connect gate="G$1" pin="B1" pad="P$8"/>
+<connect gate="G$1" pin="B2" pad="P$1"/>
+<connect gate="G$1" pin="GND" pad="P$2"/>
+<connect gate="G$1" pin="OE" pad="P$6"/>
+<connect gate="G$1" pin="VCCA" pad="P$3"/>
+<connect gate="G$1" pin="VCCB" pad="P$7"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14632,6 +14714,12 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="J2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="2X2HEADER" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="I2C" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="GROVE" device=""/>
+<part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
+<part name="U6" library="adafruit" deviceset="TXS0102" device="" value="TXS0102"/>
+<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
+<part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14825,6 +14913,16 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <instance part="P+2" gate="1" x="-241.3" y="223.52" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-241.3" y="226.06" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="I2C" gate="G$1" x="-198.12" y="81.28" rot="MR180"/>
+<instance part="+3V1" gate="G$1" x="-231.14" y="101.6" smashed="yes">
+<attribute name="VALUE" x="-228.6" y="104.14" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY14" gate="GND" x="-208.28" y="88.9" smashed="yes" rot="R180"/>
+<instance part="U6" gate="G$1" x="-228.6" y="83.82"/>
+<instance part="P+7" gate="1" x="-210.82" y="99.06" smashed="yes">
+<attribute name="VALUE" x="-210.82" y="101.6" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="SUPPLY15" gate="GND" x="-228.6" y="66.04" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -14942,6 +15040,15 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <wire x1="-220.98" y1="200.66" x2="-220.98" y2="198.12" width="0.1524" layer="91"/>
 <junction x="-220.98" y="200.66"/>
 </segment>
+<segment>
+<pinref part="I2C" gate="G$1" pin="4"/>
+<pinref part="SUPPLY14" gate="GND" pin="GND"/>
+<wire x1="-203.2" y1="86.36" x2="-208.28" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="GND"/>
+<pinref part="SUPPLY15" gate="GND" pin="GND"/>
+</segment>
 </net>
 <net name="PWM-R" class="0">
 <segment>
@@ -15039,6 +15146,15 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pinref part="J1" gate="G$1" pin="3"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="-238.76" y1="223.52" x2="-231.14" y2="223.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="VCCB"/>
+<wire x1="-226.06" y1="96.52" x2="-210.82" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-210.82" y1="96.52" x2="-210.82" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="I2C" gate="G$1" pin="3"/>
+<wire x1="-210.82" y1="83.82" x2="-203.2" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="P+7" gate="1" pin="+5V"/>
+<junction x="-210.82" y="96.52"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -15153,6 +15269,15 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="-327.66" y1="228.6" x2="-317.5" y2="228.6" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="VCCA"/>
+<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+<wire x1="-231.14" y1="99.06" x2="-231.14" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="U6" gate="G$1" pin="OE"/>
+<wire x1="-243.84" y1="86.36" x2="-243.84" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="-243.84" y1="96.52" x2="-231.14" y2="96.52" width="0.1524" layer="91"/>
+<junction x="-231.14" y="96.52"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -15164,10 +15289,16 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="U2" gate="G$1" pin="SDA"/>
 <wire x1="-444.5" y1="185.42" x2="-444.5" y2="182.88" width="0.1524" layer="91"/>
-<label x="-449.58" y="203.2" size="1.778" layer="95" rot="R90" xref="yes"/>
-<wire x1="-449.58" y1="203.2" x2="-449.58" y2="185.42" width="0.1524" layer="91"/>
+<label x="-449.58" y="213.36" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-449.58" y1="213.36" x2="-449.58" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="-449.58" y1="185.42" x2="-444.5" y2="185.42" width="0.1524" layer="91"/>
 <junction x="-444.5" y="185.42"/>
+<wire x1="-449.58" y1="213.36" x2="-449.58" y2="223.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="A1"/>
+<wire x1="-243.84" y1="81.28" x2="-248.92" y2="81.28" width="0.1524" layer="91"/>
+<label x="-248.92" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -15180,10 +15311,15 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="U2" gate="G$1" pin="SCL"/>
 <wire x1="-436.88" y1="185.42" x2="-436.88" y2="182.88" width="0.1524" layer="91"/>
-<label x="-440.182" y="203.2" size="1.778" layer="95" rot="R90" xref="yes"/>
-<wire x1="-440.182" y1="203.2" x2="-440.436" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="-440.436" y1="185.42" x2="-436.88" y2="185.42" width="0.1524" layer="91"/>
 <junction x="-436.88" y="185.42"/>
+<wire x1="-441.96" y1="185.42" x2="-436.88" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="-441.96" y1="220.98" x2="-441.96" y2="185.42" width="0.1524" layer="91"/>
+<label x="-441.96" y="220.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U6" gate="G$1" pin="A2"/>
+<wire x1="-243.84" y1="78.74" x2="-248.92" y2="78.74" width="0.1524" layer="91"/>
+<label x="-248.92" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -15759,6 +15895,22 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <wire x1="-276.86" y1="114.3" x2="-276.86" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="-276.86" y1="96.52" x2="-287.02" y2="96.52" width="0.1524" layer="91"/>
 <junction x="-287.02" y="96.52"/>
+</segment>
+</net>
+<net name="SDA-OUT" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="B1"/>
+<pinref part="I2C" gate="G$1" pin="2"/>
+<wire x1="-213.36" y1="81.28" x2="-203.2" y2="81.28" width="0.1524" layer="91"/>
+<label x="-210.82" y="81.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCL-OUT" class="0">
+<segment>
+<pinref part="I2C" gate="G$1" pin="1"/>
+<pinref part="U6" gate="G$1" pin="B2"/>
+<wire x1="-203.2" y1="78.74" x2="-213.36" y2="78.74" width="0.1524" layer="91"/>
+<label x="-210.82" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
