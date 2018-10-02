@@ -212,6 +212,15 @@
 <wire x1="-15.24" y1="10.8712" x2="-15.24" y2="13.462" width="0.1016" layer="25"/>
 <wire x1="-14.5288" y1="13.462" x2="-14.5288" y2="8.2804" width="0.1016" layer="25"/>
 <wire x1="-15.24" y1="10.8712" x2="-13.9192" y2="10.8712" width="0.1016" layer="25"/>
+<wire x1="-14.5542" y1="8.255" x2="-15.2654" y2="8.255" width="0.1016" layer="25"/>
+<text x="-20.1422" y="6.6802" size="0.3048" layer="25">HappyBrackets - HiFi
+I2S, IMU, GPIO - Rev. 0
+UNSW Art and Design</text>
+<wire x1="-20.3962" y1="8.2042" x2="-14.7574" y2="8.2042" width="0.1524" layer="25"/>
+<wire x1="-14.7574" y1="8.2042" x2="-14.7574" y2="6.2738" width="0.1524" layer="25"/>
+<wire x1="-14.7574" y1="6.2738" x2="-20.447" y2="6.2738" width="0.1524" layer="25"/>
+<wire x1="-20.447" y1="6.2738" x2="-20.447" y2="7.8994" width="0.1524" layer="25"/>
+<wire x1="-20.447" y1="7.8994" x2="-20.447" y2="8.2042" width="0.1524" layer="25"/>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -2114,21 +2123,21 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-61.8874" y="22.733" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
 </element>
 <element name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF" x="-70.3786" y="23.5712" smashed="yes">
-<attribute name="NAME" x="-69.7484" y="22.3012" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-70.0024" y="22.606" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-70.3786" y="23.5712" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF" x="-42.1894" y="23.2156" smashed="yes" rot="R90">
-<attribute name="NAME" x="-41.5544" y="21.6916" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-41.529" y="22.1234" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-42.1894" y="23.2156" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R3" library="adafruit" package="R0603" value="10K" x="-67.5386" y="23.2918" smashed="yes" rot="R90">
 <attribute name="NAME" x="-66.8782" y="21.971" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R4" library="adafruit" package="R0603" value="10K" x="-60.0456" y="22.9362" smashed="yes" rot="R90">
-<attribute name="NAME" x="-57.531" y="23.7744" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-57.531" y="23.6474" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF" x="-73.279" y="22.479" smashed="yes" rot="R90">
-<attribute name="NAME" x="-72.5932" y="20.8788" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-72.898" y="24.3332" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-73.279" y="22.479" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U1" library="adafruit" package="TSSOP14" value="TXB0104PWR" x="-24.2824" y="22.1488" smashed="yes" rot="R270">
@@ -2142,29 +2151,29 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-52.9082" y="5.207" size="0.8128" layer="25" font="vector" ratio="15"/>
 </element>
 <element name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF" x="-58.801" y="3.7721" smashed="yes" rot="R270">
-<attribute name="NAME" x="-58.0898" y="2.3905" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-60.071" y="2.8731" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-58.801" y="3.7721" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C18" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="0603-POLAR" value="100uF" x="-70.485" y="4.953" smashed="yes" rot="R90">
-<attribute name="NAME" x="-69.85" y="2.1082" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-71.501" y="5.5118" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R7" library="adafruit" package="R0603" value="10K" x="-51.054" y="22.7584" smashed="yes" rot="R270">
-<attribute name="NAME" x="-50.3174" y="23.876" size="0.8128" layer="25" rot="R270"/>
+<attribute name="NAME" x="-51.4858" y="23.7744" size="0.8128" layer="25"/>
 </element>
 <element name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="-45.974" y="9.525" smashed="yes">
-<attribute name="NAME" x="-46.863" y="8.4836" size="0.8128" layer="25"/>
+<attribute name="NAME" x="-48.9966" y="8.9916" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="-45.974" y="9.525" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF" x="-56.007" y="3.7721" smashed="yes" rot="R270">
-<attribute name="NAME" x="-56.4896" y="1.6793" size="0.8128" layer="25"/>
+<attribute name="NAME" x="-54.8386" y="2.3905" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="-56.007" y="3.7721" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="-45.974" y="15.874996875" smashed="yes">
-<attribute name="NAME" x="-46.9646" y="17.017996875" size="0.8128" layer="25"/>
+<attribute name="NAME" x="-49.022" y="15.595596875" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="-45.974" y="15.874996875" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="-45.974" y="13.75833125" smashed="yes">
-<attribute name="NAME" x="-46.863" y="14.41873125" size="0.8128" layer="25"/>
+<attribute name="NAME" x="-48.9712" y="13.52973125" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="-45.974" y="13.75833125" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R15" library="adafruit" package="R0603" value="10R" x="-49.53" y="18.415" smashed="yes" rot="R180">
@@ -2175,10 +2184,10 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="-59.3344" y="18.1864" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C33" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="0603-POLAR" value="100UF" x="-69.0118" y="19.5834" smashed="yes" rot="R180">
-<attribute name="NAME" x="-68.2244" y="17.9578" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-68.0974" y="18.7198" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="C31" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF" x="-57.2262" y="18.161" smashed="yes" rot="R90">
-<attribute name="NAME" x="-55.9816" y="18.8214" size="0.8128" layer="25"/>
+<attribute name="NAME" x="-56.007" y="18.923" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="-57.2262" y="18.161" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="L1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB" x="-62.611" y="5.461" smashed="yes" rot="R180">
@@ -2194,49 +2203,49 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-62.6872" y="15.4432" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="C21" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF" x="-66.04" y="6.223" smashed="yes" rot="R90">
-<attribute name="NAME" x="-65.1764" y="4.5212" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-66.7766" y="6.477" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-66.04" y="6.223" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF" x="-66.04" y="9.398" smashed="yes" rot="R90">
-<attribute name="NAME" x="-67.6148" y="9.9568" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-67.056" y="9.9568" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-66.04" y="9.398" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF" x="-66.04" y="12.827" smashed="yes" rot="R90">
-<attribute name="NAME" x="-67.3608" y="12.8016" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-66.7766" y="13.081" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-66.04" y="12.827" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF" x="-66.04" y="16.002" smashed="yes" rot="R90">
-<attribute name="NAME" x="-67.2084" y="16.2052" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-66.6496" y="17.0688" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-66.04" y="16.002" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="220nF" x="-58.6232" y="7.0358" smashed="yes">
-<attribute name="NAME" x="-57.6834" y="5.9436" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-55.372" y="7.4422" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-58.6232" y="7.0358" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="220nF" x="-58.928" y="9.9822" smashed="yes">
-<attribute name="NAME" x="-57.6834" y="9.2456" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-55.3974" y="10.5664" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-58.928" y="9.9822" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="220nF" x="-58.9534" y="12.2428" smashed="yes">
-<attribute name="NAME" x="-59.7408" y="13.2334" size="0.8128" layer="25"/>
+<attribute name="NAME" x="-57.5818" y="12.0142" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="-58.9534" y="12.2428" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="220nF" x="-58.039" y="15.24" smashed="yes">
-<attribute name="NAME" x="-59.7154" y="15.2654" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-54.61" y="15.8242" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-58.039" y="15.24" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF" x="-45.974" y="11.641665625" smashed="yes">
-<attribute name="NAME" x="-46.863" y="10.422465625" size="0.8128" layer="25"/>
+<attribute name="NAME" x="-49.0728" y="11.184465625" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="-45.974" y="11.641665625" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R10" library="adafruit" package="R0603" value="39K" x="-42.9006" y="9.4742" smashed="yes" rot="R180">
-<attribute name="NAME" x="-41.8084" y="8.8646" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-41.8084" y="10.7188" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R11" library="adafruit" package="R0603" value="56K" x="-42.9006" y="11.6078" smashed="yes">
-<attribute name="NAME" x="-43.8404" y="10.4648" size="0.8128" layer="25"/>
+<attribute name="NAME" x="-43.7642" y="12.0904" size="0.8128" layer="25"/>
 </element>
 <element name="R12" library="adafruit" package="R0603" value="33K" x="-42.9006" y="17.9324" smashed="yes">
-<attribute name="NAME" x="-43.815" y="18.5166" size="0.8128" layer="25"/>
+<attribute name="NAME" x="-43.18" y="18.4404" size="0.8128" layer="25"/>
 </element>
 <element name="R13" library="adafruit" package="R0603" value="33K" x="-42.9006" y="15.875" smashed="yes" rot="R180">
 <attribute name="NAME" x="-41.8084" y="17.2974" size="0.8128" layer="25" rot="R180"/>
@@ -2251,10 +2260,10 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-75.2856" y="20.0152" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R2" library="adafruit" package="R0603" value="220" x="-74.6252" y="18.7198" smashed="yes" rot="R270">
-<attribute name="NAME" x="-74.0156" y="16.9926" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-74.2442" y="17.5768" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R1" library="adafruit" package="R0603" value="220" x="-70.0532" y="16.7132" smashed="yes">
-<attribute name="NAME" x="-69.1388" y="16.2814" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-69.1388" y="16.0274" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="JP1" library="adafruit" package="1X03" value="Header 1x3" x="-76.8858" y="21.463" smashed="yes" rot="R270">
 <attribute name="NAME" x="-77.1906" y="22.5552" size="0.8128" layer="25" ratio="10" rot="R270"/>
@@ -2273,7 +2282,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-45.212" y="8.0772" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="R9" library="adafruit" package="R0603" value="10K" x="-50.038" y="3.683" smashed="yes" rot="R90">
-<attribute name="NAME" x="-48.9966" y="6.096" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-50.6476" y="3.937" size="0.8128" layer="25" rot="R180"/>
 </element>
 <element name="J1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="JST-PH4" value="GROVE" x="-17.5006" y="19.177" smashed="yes" rot="R90">
 <attribute name="NAME" x="-18.3845" y="18.241" size="1.27" layer="25" rot="R90"/>
@@ -2287,12 +2296,12 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-33.8328" y="15.5702" size="0.889" layer="27" ratio="11"/>
 </element>
 <element name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF" x="-31.3436" y="10.9728" smashed="yes" rot="R180">
-<attribute name="NAME" x="-30.7086" y="10.3378" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-30.5816" y="12.319" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-31.3436" y="10.9728" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-30.7086" y="12.8778" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF" x="-31.3436" y="8.9408" smashed="yes" rot="R180">
-<attribute name="NAME" x="-30.7086" y="8.3058" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-30.5054" y="8.128" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-31.3436" y="8.9408" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-30.7086" y="10.8458" size="1.27" layer="27" rot="R180"/>
 </element>
@@ -2302,11 +2311,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-32.0294" y="8.9662" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C13" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="0603-POLAR" value="10uF" x="-37.084" y="11.0744" smashed="yes" rot="R90">
-<attribute name="NAME" x="-36.1442" y="14.4272" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-36.0426" y="9.5504" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-34.163" y="9.4234" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="C15" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="0603-POLAR" value="10uF" x="-37.7444" y="22.9616" smashed="yes" rot="R180">
-<attribute name="NAME" x="-36.9062" y="24.8412" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-36.8046" y="24.7142" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-36.0934" y="25.8826" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C11" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="0603-POLAR" value="10uF" x="-33.38550625" y="21.93163125" smashed="yes" rot="R180">
@@ -2314,43 +2323,45 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="-31.73450625" y="24.85263125" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="-36.1188" y="19.9136" smashed="yes" rot="R180">
-<attribute name="NAME" x="-35.6362" y="19.3802" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-35.052" y="19.304" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-36.1188" y="19.9136" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-35.4838" y="21.8186" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="-39.2684" y="19.9136" smashed="yes" rot="R180">
-<attribute name="NAME" x="-38.6334" y="19.2786" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-38.3794" y="19.2532" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-39.2684" y="19.9136" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-38.6334" y="21.8186" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="0603-POLAR" value="10uF" x="-24.13" y="13.6652" smashed="yes" rot="R180">
-<attribute name="NAME" x="-23.495" y="12.0396" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-23.368" y="15.3162" size="0.8128" layer="25" rot="R180"/>
 <attribute name="VALUE" x="-22.479" y="16.5862" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF" x="-22.606" y="10.2108" smashed="yes" rot="R180">
-<attribute name="NAME" x="-21.971" y="12.0142" size="0.8128" layer="25" rot="R180"/>
+<attribute name="NAME" x="-21.6662" y="9.5504" size="0.8128" layer="25" rot="R180"/>
 <attribute name="SPICEPREFIX" value="C" x="-22.606" y="10.2108" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-21.971" y="12.1158" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2nF" x="-40.296590625" y="15.374365625" smashed="yes" rot="R270">
-<attribute name="NAME" x="-41.053765625" y="16.929609375" size="0.8128" layer="25"/>
+<attribute name="NAME" x="-40.799765625" y="13.627609375" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="-40.296590625" y="15.374365625" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-42.201590625" y="16.009365625" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2nF" x="-40.245790625" y="11.219940625" smashed="yes" rot="R90">
-<attribute name="NAME" x="-40.773859375" y="8.622790625" size="0.8128" layer="25"/>
+<attribute name="NAME" x="-40.773859375" y="9.257790625" size="0.8128" layer="25"/>
 <attribute name="SPICEPREFIX" value="C" x="-40.245790625" y="11.219940625" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-38.340790625" y="10.584940625" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="R5" library="adafruit" package="R0603" value="470" x="-25.7048" y="9.652" smashed="yes" rot="R270">
-<attribute name="NAME" x="-26.3906" y="7.2898" size="0.8128" layer="25"/>
+<attribute name="NAME" x="-26.4414" y="10.7188" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="-27.7368" y="10.541" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="R6" library="adafruit" package="R0603" value="470" x="-27.8892" y="9.6012" smashed="yes" rot="R270">
-<attribute name="NAME" x="-28.6258" y="7.239" size="0.8128" layer="25"/>
+<attribute name="NAME" x="-28.575" y="10.541" size="0.8128" layer="25"/>
 <attribute name="VALUE" x="-29.9212" y="10.4902" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="JST-PH4" value="GROVE" x="-26.2636" y="3.4544"/>
+<element name="J4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="JST-PH4" value="GROVE" x="-26.2636" y="3.4544" smashed="yes">
+<attribute name="NAME" x="-27.3774" y="4.3891" size="1.27" layer="25"/>
+</element>
 <element name="U5" library="adafruit" package="VFSOP-8" value="TXS0102" x="-54.2036" y="22.606" rot="R90"/>
 </elements>
 <signals>
@@ -4048,6 +4059,10 @@ design rules under a new name.</description>
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
