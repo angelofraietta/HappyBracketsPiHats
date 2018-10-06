@@ -1,4 +1,4 @@
-Partlist exported from /Users/angelofraietta/Documents/EAGLE/projects/HappyBracketsPiHats/PiZeroAudioI2S.sch at 6/10/18 12:51 PM
+Partlist exported from /Users/angelofraietta/Documents/EAGLE/projects/HappyBracketsPiHats/PiZeroAudioI2S.sch at 6/10/18 5:38 PM
 
 Qty Value         Device                  Package                                         Parts                                   Description                                                                               SPICEPREFIX
 9   0.1uF         C-EUC0603               C0603                                           C1, C2, C3, C6, C10, C12, C14, C17, C32 CAPACITOR, European symbol                                                                C          
