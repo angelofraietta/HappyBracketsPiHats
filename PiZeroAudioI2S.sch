@@ -9863,6 +9863,9 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pinref part="U3" gate="G$1" pin="FLT-11"/>
 <wire x1="-276.86" y1="182.88" x2="-276.86" y2="190.5" width="0.1524" layer="91"/>
 <junction x="-276.86" y="190.5"/>
+<pinref part="U3" gate="G$1" pin="SCK-12"/>
+<wire x1="-276.86" y1="182.88" x2="-276.86" y2="177.8" width="0.1524" layer="91"/>
+<junction x="-276.86" y="182.88"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="FMT-16"/>
