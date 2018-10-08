@@ -12953,19 +12953,21 @@ inductor current limit</text>
 </net>
 <net name="R-" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="-360.934" y1="82.296" x2="-365.76" y2="82.296" width="0.1524" layer="91"/>
 <pinref part="U6" gate="G$1" pin="-OUT_R-14"/>
-<wire x1="-365.76" y1="82.296" x2="-365.76" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="-365.76" y1="78.74" x2="-370.84" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-365.76" y1="78.74" x2="-360.68" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="1"/>
+<wire x1="-360.68" y1="78.74" x2="-360.68" y2="79.756" width="0.1524" layer="91"/>
+<wire x1="-360.68" y1="79.756" x2="-360.934" y2="79.756" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="R+" class="0">
 <segment>
-<pinref part="J5" gate="G$1" pin="1"/>
 <pinref part="U6" gate="G$1" pin="+OUT_R-16"/>
-<wire x1="-360.934" y1="79.756" x2="-360.934" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-360.934" y1="73.66" x2="-370.84" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="J5" gate="G$1" pin="2"/>
+<wire x1="-363.22" y1="73.66" x2="-370.84" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-360.934" y1="82.296" x2="-363.22" y2="82.296" width="0.1524" layer="91"/>
+<wire x1="-363.22" y1="82.296" x2="-363.22" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
