@@ -15020,7 +15020,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="U4" library="SparkFun-IC-Power" deviceset="MCP73831" device=""/>
 <part name="R12" library="adafruit" deviceset="R-US_" device="R0603" value="750K"/>
 <part name="R14" library="adafruit" deviceset="R-US_" device="R0603" value="100k"/>
-<part name="R15" library="adafruit" deviceset="R-US_" device="R0603" value="DNP"/>
+<part name="R15" library="adafruit" deviceset="R-US_" device="R0603" value="100K"/>
 <part name="U8" library="SparkFun-IC-Power" deviceset="PAM2401" device="" value="PAM2401"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_02" device="-JST-2MM-SMT" value="JST"/>
 <part name="C22" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="22uF"/>
