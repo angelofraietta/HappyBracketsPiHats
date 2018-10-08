@@ -15015,11 +15015,11 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
-<part name="R7" library="adafruit" deviceset="R-US_" device="R0603" value="1k"/>
-<part name="R8" library="adafruit" deviceset="R-US_" device="R0603" value="2.0k"/>
+<part name="R7" library="adafruit" deviceset="R-US_" device="R0603" value="1K"/>
+<part name="R8" library="adafruit" deviceset="R-US_" device="R0603" value="2K"/>
 <part name="U4" library="SparkFun-IC-Power" deviceset="MCP73831" device=""/>
 <part name="R12" library="adafruit" deviceset="R-US_" device="R0603" value="750K"/>
-<part name="R14" library="adafruit" deviceset="R-US_" device="R0603" value="100k"/>
+<part name="R14" library="adafruit" deviceset="R-US_" device="R0603" value="100K"/>
 <part name="R15" library="adafruit" deviceset="R-US_" device="R0603" value="100K"/>
 <part name="U8" library="SparkFun-IC-Power" deviceset="PAM2401" device="" value="PAM2401"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_02" device="-JST-2MM-SMT" value="JST"/>
