@@ -9352,7 +9352,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="CON1" library="RPI-Zero" deviceset="RPI-ZERO" device=""/>
+<part name="CON1" library="RPI-Zero" deviceset="RPI-ZERO" device="" value="RPI-Header"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="U2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="LSM6DS33" device="LGA-16-3X3" package3d_urn="urn:adsk.eagle:package:5224694/1" value="LSM6DS33"/>

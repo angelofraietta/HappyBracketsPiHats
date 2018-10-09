@@ -3519,7 +3519,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="CON1" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-ZERO" x="-78.74" y="1.27"/>
+<element name="CON1" library="RPI-Zero" package="RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" value="RPI-Header" x="-78.74" y="1.27"/>
 <element name="U2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="LGA-16-3X3" package3d_urn="urn:adsk.eagle:package:5224694/1" value="LSM6DS33" x="-63.7924" y="22.733" smashed="yes" rot="R270">
 <attribute name="NAME" x="-63.627" y="20.5102" size="0.6096" layer="25" ratio="20" align="bottom-center"/>
 </element>

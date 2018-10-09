@@ -9309,7 +9309,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="CON1" library="RPI-Zero" deviceset="RPI-ZERO" device=""/>
+<part name="CON1" library="RPI-Zero" deviceset="RPI-ZERO" device="" value="RPI-Header"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="1206-POLAR" value="47uF"/>

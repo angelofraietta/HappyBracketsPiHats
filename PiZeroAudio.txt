@@ -1,4 +1,4 @@
-Partlist exported from /Users/angelofraietta/Documents/EAGLE/projects/HappyBracketsPiHats/PiZeroAudio.sch at 6/10/18 5:37 PM
+Partlist exported from /Users/angelofraietta/Documents/EAGLE/projects/HappyBracketsPiHats/PiZeroAudio.sch at 9/10/18 4:17 PM
 
 Qty Value         Device                  Package                                         Parts                            Description                                                                 SPICEPREFIX
 8   0.1uF         C-EUC0603               C0603                                           C1, C2, C4, C5, C7, C8, C10, C25 CAPACITOR, European symbol                                                  C          
@@ -27,7 +27,7 @@ Qty Value         Device                  Package                               
 1   LSM6DS33      LSM6DS33LGA-16-3X3      LGA-16-3X3                                      U2                               iNEMO inertial module:                                                                 
 1   NC7WZ16       NC7WZ16                 SC-70-6                                         U3                                                                                                                      
 1   RED           LEDCHIP-LED0805         CHIP-LED0805                                    LED1                             LED                                                                                    
-1   RPI-ZERO      RPI-ZERO                RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL CON1                                                                                                                    
+1   RPI-Header    RPI-ZERO                RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL CON1                                                                                                                    
 2   SHORT         SHORT                   SHORT                                           SH1, SH2                         Creates a short so analogue and digital power can have different net names.            
 1   TPA3144D2PWPR TPA3144D2PWPR           HTSSOP28                                        U5                               TPA3144D2PWPR                                                                          
 1   TXB0104PWR    TXB0104PWR              TSSOP14                                         U1                               4-Bit Bi-Directional Level Shifter                                                     
