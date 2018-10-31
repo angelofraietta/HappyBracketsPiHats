@@ -9796,12 +9796,12 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MPN" value="0603B222K500CT"/>
 <attribute name="OC_FARNELL" value="2496845"/>
 </part>
-<part name="R5" library="adafruit" deviceset="R-US_" device="R0603" value="80K">
+<part name="R5" library="adafruit" deviceset="R-US_" device="R0603" value="76K8">
 <attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
 <attribute name="MPN" value="ERJ3EKF4700V"/>
 <attribute name="OC_FARNELL" value="2303120"/>
 </part>
-<part name="R6" library="adafruit" deviceset="R-US_" device="R0603" value="80K">
+<part name="R6" library="adafruit" deviceset="R-US_" device="R0603" value="76K8">
 <attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
 <attribute name="MPN" value="ERJ3EKF4700V"/>
 <attribute name="OC_FARNELL" value="2303120"/>
@@ -9848,6 +9848,12 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 </part>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="AGND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
+<part name="R14" library="adafruit" deviceset="R-US_" device="R0603" value="10K">
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="OC_FARNELL" value="2133286"/>
+</part>
+<part name="AGND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10341,6 +10347,12 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="VALUE" x="-452.12" y="116.84" size="1.778" layer="96" rot="MR90"/>
 </instance>
 <instance part="AGND1" gate="VR1" x="-345.44" y="210.82"/>
+<instance part="R14" gate="G$1" x="-299.72" y="236.22">
+<attribute name="OC_FARNELL" x="-299.72" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MF" x="-299.72" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="MPN" x="-299.72" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="AGND20" gate="VR1" x="-304.8" y="231.14"/>
 </instances>
 <busses>
 </busses>
@@ -11236,6 +11248,11 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pinref part="AGND1" gate="VR1" pin="AGND"/>
 <junction x="-345.44" y="213.36"/>
 </segment>
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="-304.8" y1="233.68" x2="-304.8" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="AGND20" gate="VR1" pin="AGND"/>
+</segment>
 </net>
 <net name="AUDIO-LEFT" class="0">
 <segment>
@@ -11390,8 +11407,11 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="OE"/>
-<wire x1="-294.64" y1="233.68" x2="-294.64" y2="226.06" width="0.1524" layer="91"/>
-<label x="-294.64" y="233.68" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="-294.64" y1="243.84" x2="-294.64" y2="236.22" width="0.1524" layer="91"/>
+<label x="-294.64" y="243.84" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="-294.64" y1="236.22" x2="-294.64" y2="226.06" width="0.1524" layer="91"/>
+<junction x="-294.64" y="236.22"/>
 </segment>
 </net>
 <net name="N$14" class="0">
