@@ -9798,12 +9798,12 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 </part>
 <part name="R5" library="adafruit" deviceset="R-US_" device="R0603" value="76K8">
 <attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
-<attribute name="MPN" value="ERJ3EKF4700V"/>
+<attribute name="MPN" value="RMCF0603FT76K8"/>
 <attribute name="OC_FARNELL" value="2303120"/>
 </part>
 <part name="R6" library="adafruit" deviceset="R-US_" device="R0603" value="76K8">
 <attribute name="MF" value="PANASONIC ELECTRONIC COMPONENTS"/>
-<attribute name="MPN" value="ERJ3EKF4700V"/>
+<attribute name="MPN" value="RMCF0603FT76K8"/>
 <attribute name="OC_FARNELL" value="2303120"/>
 </part>
 <part name="AGND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
