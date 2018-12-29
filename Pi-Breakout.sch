@@ -511,6 +511,26 @@ Source: https://au.rs-online.com/web/p/ferrite-beads/2303907/</description>
 <rectangle x1="1" y1="0.275" x2="1.175" y2="0.6" layer="51" rot="R180"/>
 <rectangle x1="-0.1" y1="-0.1" x2="0.1" y2="0.1" layer="21"/>
 </package>
+<package name="1X2_EDGE" library_version="1" library_locally_modified="yes">
+<rectangle x1="-1.905" y1="-1.905" x2="-0.635" y2="1.905" layer="1"/>
+<rectangle x1="0.635" y1="-1.905" x2="1.905" y2="1.905" layer="1"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-1.778" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="-1.778" x2="-1.905" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="1.905" y1="-2.54" x2="2.54" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.27" width="0.127" layer="51"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="1.778" width="0.127" layer="51"/>
+<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="-2.54" x2="0" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="0" y1="-1.905" x2="0.635" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="0.635" y1="-2.54" x2="1.905" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="1.905" width="0.127" layer="51"/>
+<wire x1="0" y1="1.905" x2="0" y2="-1.905" width="0.127" layer="51"/>
+<smd name="P$1" x="-1.27" y="1.27" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$2" x="1.27" y="1.27" dx="1.27" dy="0.635" layer="1"/>
+<wire x1="-2.54" y1="1.905" x2="2.54" y2="1.905" width="0.127" layer="51"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="1.27" width="0.127" layer="51"/>
+</package>
 <package name="22-23-2021" library_version="1" library_locally_modified="yes">
 <description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 2 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232021_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
 <wire x1="-2.54" y1="3.175" x2="2.54" y2="3.175" width="0.254" layer="21"/>
@@ -568,6 +588,31 @@ Source: https://au.rs-online.com/web/p/ferrite-beads/2303907/</description>
 <smd name="5" x="-0.95" y="1.4" dx="0.6" dy="1.1" layer="1" rot="R180"/>
 <text x="-2.413" y="2.105" size="1.016" layer="25" ratio="12">&gt;NAME</text>
 <text x="-2.413" y="-3.121" size="1.016" layer="27" ratio="12">&gt;VALUE</text>
+</package>
+<package name="1X3_EDGE" library_version="1" library_locally_modified="yes">
+<rectangle x1="-3.175" y1="-1.905" x2="-1.905" y2="1.905" layer="1"/>
+<rectangle x1="-0.635" y1="-1.905" x2="0.635" y2="1.905" layer="1"/>
+<rectangle x1="1.905" y1="-1.905" x2="3.175" y2="1.905" layer="1"/>
+<smd name="P$1" x="-2.54" y="1.27" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$2" x="0" y="1.27" dx="1.27" dy="0.635" layer="1"/>
+<smd name="P$3" x="2.54" y="1.27" dx="1.27" dy="0.635" layer="1"/>
+<wire x1="-3.81" y1="1.27" x2="-3.81" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-1.905" y1="-2.54" x2="-1.27" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="-1.905" x2="-0.635" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="-2.54" x2="0.635" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="0.635" y1="-2.54" x2="1.27" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="1.27" y1="-1.905" x2="1.905" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="1.905" y1="-2.54" x2="3.175" y2="-2.54" width="0.127" layer="51"/>
+<wire x1="3.175" y1="-2.54" x2="3.81" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="3.81" y1="-1.905" x2="3.81" y2="1.905" width="0.127" layer="51"/>
+<wire x1="3.81" y1="1.905" x2="1.27" y2="1.905" width="0.127" layer="51"/>
+<wire x1="1.27" y1="1.905" x2="-1.27" y2="1.905" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="1.905" x2="-3.81" y2="1.905" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="1.27" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.27" y2="1.905" width="0.127" layer="51"/>
+<wire x1="1.27" y1="1.905" x2="1.27" y2="-1.905" width="0.127" layer="51"/>
 </package>
 </packages>
 <packages3d>
@@ -645,6 +690,17 @@ See https://au.rs-online.com/web/p/ferrite-beads/2303907/</description>
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="25.4" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="25.4" x2="-33.02" y2="25.4" width="0.254" layer="94"/>
 </symbol>
+<symbol name="1X3" library_version="1" library_locally_modified="yes">
+<wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="-5.08" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="-5.08" width="0.4064" layer="94"/>
+<text x="-6.35" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
+<pin name="3" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BLM31A" prefix="L" library_version="1" library_locally_modified="yes">
@@ -662,6 +718,23 @@ BLM series ferrite beads from Murata do not require a ground connection and are 
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:15829/1"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1X2EDGE" library_version="1" library_locally_modified="yes">
+<description>A 2 pin edge on top panel so you can SMD solder wire to it</description>
+<gates>
+<gate name="G$1" symbol="1X2" x="-5.08" y="15.24"/>
+</gates>
+<devices>
+<device name="" package="1X2_EDGE">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -724,6 +797,24 @@ https://www.molex.com/pdm_docs/sd/022272021_sd.pdf</description>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:6644337/2"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1X3EDGE" library_version="1" library_locally_modified="yes">
+<description>1 x 3 Pin SMD header</description>
+<gates>
+<gate name="G$1" symbol="1X3" x="5.08" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="1X3_EDGE">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+<connect gate="G$1" pin="3" pad="P$3"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -5123,18 +5214,18 @@ Source: AVX .. aphvc.pdf</description>
 <part name="3V3-OUT" library="adafruit" deviceset="PINHD-1X3" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="470p"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="J2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="2X1-LOCKING" device=""/>
+<part name="J2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="1X2EDGE" device=""/>
 <part name="L9" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1"/>
 <part name="L10" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1"/>
 <part name="L11" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1"/>
 <part name="L12" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1"/>
 <part name="U2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="TC1014-3.3V" device="" package3d_urn="urn:adsk.eagle:package:6644337/2"/>
-<part name="3V3-OUT1" library="adafruit" deviceset="PINHD-1X3" device=""/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="470p"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="DIG_V" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="2X2HEADER" device=""/>
+<part name="J3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="1X2EDGE" device=""/>
+<part name="U$1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="1X3EDGE" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5180,12 +5271,12 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="L11" gate="G$1" x="-121.92" y="-12.7"/>
 <instance part="L12" gate="G$1" x="-111.76" y="-12.7"/>
 <instance part="U2" gate="G$1" x="-30.48" y="-38.1"/>
-<instance part="3V3-OUT1" gate="A" x="-58.42" y="2.54" rot="R90"/>
 <instance part="C3" gate="G$1" x="-35.56" y="-27.94"/>
 <instance part="C4" gate="G$1" x="-30.48" y="-17.78"/>
 <instance part="C5" gate="G$1" x="-83.82" y="-12.7"/>
 <instance part="C6" gate="G$1" x="-147.32" y="-17.78"/>
-<instance part="DIG_V" gate="G$1" x="-167.64" y="-15.24" rot="R180"/>
+<instance part="J3" gate="G$1" x="-165.1" y="-20.32" rot="MR0"/>
+<instance part="U$1" gate="G$1" x="-58.42" y="0" rot="MR90"/>
 </instances>
 <busses>
 </busses>
@@ -5879,16 +5970,14 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="AN_5V" class="0">
 <segment>
-<pinref part="3V3-OUT1" gate="A" pin="1"/>
 <pinref part="U2" gate="G$1" pin="VIN"/>
-<wire x1="-60.96" y1="0" x2="-68.58" y2="0" width="0.1524" layer="91"/>
-<wire x1="-68.58" y1="0" x2="-68.58" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="0" x2="-68.58" y2="-2.54" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="_SHDN"/>
+<wire x1="-68.58" y1="-2.54" x2="-68.58" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="-25.4" x2="-73.66" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="-25.4" x2="-73.66" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="-7.62" x2="-73.66" y2="0" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="0" x2="-68.58" y2="0" width="0.1524" layer="91"/>
-<junction x="-68.58" y="0"/>
 <pinref part="L12" gate="G$1" pin="1"/>
 <wire x1="-111.76" y1="-5.08" x2="-83.82" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-5.08" x2="-73.66" y2="-5.08" width="0.1524" layer="91"/>
@@ -5898,18 +5987,21 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C5" gate="G$1" pin="1"/>
 <wire x1="-83.82" y1="-10.16" x2="-83.82" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="-83.82" y="-5.08"/>
+<pinref part="U$1" gate="G$1" pin="3"/>
+<wire x1="-60.96" y1="-2.54" x2="-68.58" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="-68.58" y="-2.54"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
-<pinref part="3V3-OUT1" gate="A" pin="3"/>
-<wire x1="-55.88" y1="0" x2="-55.88" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="-7.62" x2="-35.56" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="VOUT"/>
 <wire x1="-35.56" y1="-7.62" x2="-35.56" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="-35.56" y1="-15.24" x2="-30.48" y2="-15.24" width="0.1524" layer="91"/>
 <junction x="-35.56" y="-15.24"/>
+<pinref part="U$1" gate="G$1" pin="1"/>
+<wire x1="-55.88" y1="-7.62" x2="-55.88" y2="-2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -5923,8 +6015,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U2" gate="G$1" pin="GND"/>
 <wire x1="-68.58" y1="-20.32" x2="-71.12" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="-20.32" x2="-71.12" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="3V3-OUT1" gate="A" pin="2"/>
-<wire x1="-58.42" y1="0" x2="-58.42" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="-7.62" x2="-71.12" y2="-7.62" width="0.1524" layer="91"/>
 <wire x1="-71.12" y1="-20.32" x2="-71.12" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="-71.12" y="-20.32"/>
@@ -5943,6 +6033,8 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C5" gate="G$1" pin="2"/>
 <wire x1="-83.82" y1="-17.78" x2="-83.82" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="-83.82" y="-43.18"/>
+<pinref part="U$1" gate="G$1" pin="2"/>
+<wire x1="-58.42" y1="-2.54" x2="-58.42" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIG_5V" class="0">
@@ -5952,14 +6044,12 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="-147.32" y1="-5.08" x2="-147.32" y2="-15.24" width="0.1524" layer="91"/>
 <label x="-139.7" y="-5.08" size="1.778" layer="95"/>
-<pinref part="DIG_V" gate="G$1" pin="4"/>
-<pinref part="DIG_V" gate="G$1" pin="3"/>
-<wire x1="-177.8" y1="-17.78" x2="-157.48" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-157.48" y1="-17.78" x2="-152.4" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="-152.4" y1="-17.78" x2="-152.4" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="-157.48" y="-17.78"/>
 <wire x1="-152.4" y1="-5.08" x2="-147.32" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="-147.32" y="-5.08"/>
+<pinref part="J3" gate="G$1" pin="1"/>
+<wire x1="-157.48" y1="-17.78" x2="-160.02" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DIG_GND" class="0">
@@ -5970,15 +6060,13 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="L9" gate="G$1" pin="2"/>
 <wire x1="-147.32" y1="-43.18" x2="-144.78" y2="-43.18" width="0.1524" layer="91"/>
 <label x="-139.7" y="-43.18" size="1.778" layer="95"/>
-<pinref part="DIG_V" gate="G$1" pin="2"/>
-<pinref part="DIG_V" gate="G$1" pin="1"/>
 <wire x1="-144.78" y1="-43.18" x2="-121.92" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="-177.8" y1="-20.32" x2="-157.48" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-157.48" y1="-20.32" x2="-154.94" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-154.94" y1="-20.32" x2="-154.94" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="-157.48" y="-20.32"/>
 <wire x1="-154.94" y1="-43.18" x2="-144.78" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="-144.78" y="-43.18"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+<wire x1="-160.02" y1="-20.32" x2="-157.48" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
