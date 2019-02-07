@@ -5195,14 +5195,14 @@ Source: AVX .. aphvc.pdf</description>
 <part name="G-25" library="adafruit" deviceset="PINHD-1X3" device=""/>
 <part name="G-9" library="adafruit" deviceset="PINHD-1X3" device=""/>
 <part name="3V-17" library="adafruit" deviceset="PINHD-1X3" device=""/>
-<part name="L1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1"/>
-<part name="L2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1"/>
-<part name="L3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1"/>
-<part name="L4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1"/>
-<part name="L5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1"/>
-<part name="L6" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1"/>
-<part name="L7" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1"/>
-<part name="L8" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1"/>
+<part name="L1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1" value="300"/>
+<part name="L2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1" value="300"/>
+<part name="L3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1" value="1K"/>
+<part name="L4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1" value="1k"/>
+<part name="L5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1" value="300"/>
+<part name="L6" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1" value="300"/>
+<part name="L7" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1" value="1K"/>
+<part name="L8" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="BLM31A" device="" package3d_urn="urn:adsk.eagle:package:15829/1" value="1k"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+5V" device=""/>
 <part name="J1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="2X1-LOCKING" device=""/>
