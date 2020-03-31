@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9823,7 +9823,6 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 </part>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF">
 <spice>
 <pinmapping spiceprefix="C">
@@ -9854,6 +9853,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="OC_FARNELL" value="2133286"/>
 </part>
 <part name="AGND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
+<part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9865,62 +9865,82 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <text x="-307.34" y="76.2" size="1.778" layer="91">To Speakers</text>
 </plain>
 <instances>
-<instance part="CON1" gate="G$1" x="-365.76" y="167.64">
+<instance part="CON1" gate="G$1" x="-365.76" y="167.64" smashed="yes">
 <attribute name="OC_FARNELL" x="-365.76" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-365.76" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-365.76" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-386.08" y="203.2" size="1.27" layer="95" font="vector"/>
+<attribute name="VALUE" x="-386.08" y="201.295" size="1.27" layer="96" font="vector"/>
 </instance>
 <instance part="P+3" gate="1" x="-325.12" y="195.58" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-322.58" y="195.58" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V33" gate="G$1" x="-391.16" y="218.44"/>
-<instance part="U2" gate="G$1" x="-444.5" y="160.02">
+<instance part="+3V33" gate="G$1" x="-391.16" y="218.44" smashed="yes">
+<attribute name="VALUE" x="-393.7" y="213.36" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U2" gate="G$1" x="-444.5" y="160.02" smashed="yes">
 <attribute name="OC_FARNELL" x="-444.5" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-444.5" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-444.5" y="160.02" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C6" gate="G$1" x="-411.48" y="167.64" rot="R90">
+<instance part="C6" gate="G$1" x="-411.48" y="167.64" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" x="-411.48" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-411.48" y="167.64" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-411.48" y="167.64" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-411.861" y="169.164" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-406.781" y="169.164" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="+3V34" gate="G$1" x="-429.26" y="200.66" smashed="yes">
 <attribute name="VALUE" x="-426.72" y="203.2" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C1" gate="G$1" x="-383.54" y="210.82" rot="R90">
+<instance part="C1" gate="G$1" x="-383.54" y="210.82" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" x="-383.54" y="210.82" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-383.54" y="210.82" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-383.54" y="210.82" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-383.921" y="212.344" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-378.841" y="212.344" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY2" gate="GND" x="-375.92" y="208.28"/>
-<instance part="R3" gate="G$1" x="-444.5" y="190.5" rot="R270">
+<instance part="SUPPLY2" gate="GND" x="-375.92" y="208.28" smashed="yes">
+<attribute name="VALUE" x="-377.825" y="205.105" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="-444.5" y="190.5" smashed="yes" rot="R270">
 <attribute name="OC_FARNELL" x="-444.5" y="190.5" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-444.5" y="190.5" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-444.5" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-443.0014" y="194.31" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-447.802" y="194.31" size="1.778" layer="96" rot="R270"/>
 </instance>
-<instance part="R4" gate="G$1" x="-436.88" y="190.5" rot="R270">
+<instance part="R4" gate="G$1" x="-436.88" y="190.5" smashed="yes" rot="R270">
 <attribute name="OC_FARNELL" x="-436.88" y="190.5" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-436.88" y="190.5" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-436.88" y="190.5" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-435.3814" y="194.31" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="-440.182" y="194.31" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="SUPPLY10" gate="GND" x="-414.02" y="154.94" smashed="yes"/>
 <instance part="SUPPLY9" gate="GND" x="-406.4" y="162.56" smashed="yes"/>
 <instance part="SUPPLY14" gate="GND" x="-441.96" y="129.54" smashed="yes"/>
-<instance part="C2" gate="G$1" x="-335.28" y="200.66" rot="R180">
+<instance part="C2" gate="G$1" x="-335.28" y="200.66" smashed="yes" rot="R180">
 <attribute name="OC_FARNELL" x="-335.28" y="200.66" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-335.28" y="200.66" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-335.28" y="200.66" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-336.804" y="200.279" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-336.804" y="205.359" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY3" gate="GND" x="-330.2" y="205.74" smashed="yes"/>
-<instance part="U1" gate="G$1" x="-279.4" y="218.44">
+<instance part="U1" gate="G$1" x="-279.4" y="218.44" smashed="yes">
 <attribute name="OC_FARNELL" x="-279.4" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-279.4" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-279.4" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-292.1" y="236.22" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-292.1" y="203.2" size="1.27" layer="96"/>
 </instance>
 <instance part="SUPPLY4" gate="GND" x="-279.4" y="200.66" smashed="yes">
 <attribute name="VALUE" x="-281.305" y="197.485" size="1.778" layer="96"/>
 </instance>
-<instance part="P+1" gate="1" x="-271.78" y="236.22" rot="R270"/>
+<instance part="P+1" gate="1" x="-271.78" y="236.22" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-276.86" y="238.76" size="1.778" layer="96"/>
+</instance>
 <instance part="+3V31" gate="G$1" x="-281.94" y="241.3" smashed="yes">
 <attribute name="VALUE" x="-279.146" y="243.84" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -9930,12 +9950,14 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MF" x="-320.294" y="72.136" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-320.294" y="72.136" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U5" gate="G$1" x="-403.86" y="86.36">
+<instance part="U5" gate="G$1" x="-403.86" y="86.36" smashed="yes">
 <attribute name="OC_FARNELL" x="-403.86" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-403.86" y="86.36" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-403.86" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="P+4" gate="1" x="-358.14" y="124.46" rot="R270"/>
+<instance part="P+4" gate="1" x="-358.14" y="124.46" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-363.22" y="127" size="1.778" layer="96"/>
+</instance>
 <instance part="C17" gate="G$1" x="-378.46" y="121.92" smashed="yes">
 <attribute name="NAME" x="-376.936" y="122.301" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-376.936" y="117.221" size="1.778" layer="96"/>
@@ -9943,15 +9965,19 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MF" x="-378.46" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-378.46" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C18" gate="G$1" x="-367.792" y="121.92">
+<instance part="C18" gate="G$1" x="-367.792" y="121.92" smashed="yes">
 <attribute name="OC_FARNELL" x="-367.792" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-367.792" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-367.792" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-366.776" y="122.555" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-366.776" y="117.729" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="-441.96" y="109.22">
+<instance part="R7" gate="G$1" x="-441.96" y="109.22" smashed="yes">
 <attribute name="OC_FARNELL" x="-441.96" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-441.96" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-441.96" y="109.22" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-445.77" y="110.7186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-445.77" y="105.918" size="1.778" layer="96"/>
 </instance>
 <instance part="C21" gate="G$1" x="-439.42" y="93.98" smashed="yes" rot="R270">
 <attribute name="NAME" x="-446.278" y="92.075" size="1.778" layer="95"/>
@@ -9960,10 +9986,12 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MF" x="-439.42" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-439.42" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C16" gate="G$1" x="-388.62" y="121.92">
+<instance part="C16" gate="G$1" x="-388.62" y="121.92" smashed="yes">
 <attribute name="OC_FARNELL" x="-388.62" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-388.62" y="121.92" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-388.62" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-387.096" y="122.301" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-387.096" y="117.221" size="1.778" layer="96"/>
 </instance>
 <instance part="C32" gate="G$1" x="-439.42" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="-441.452" y="46.101" size="1.778" layer="95"/>
@@ -9979,26 +10007,36 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MF" x="-439.42" y="58.42" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-439.42" y="58.42" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R13" gate="G$1" x="-421.64" y="30.48">
+<instance part="R13" gate="G$1" x="-421.64" y="30.48" smashed="yes">
 <attribute name="OC_FARNELL" x="-421.64" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-421.64" y="30.48" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-421.64" y="30.48" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-425.45" y="31.9786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-425.45" y="27.178" size="1.778" layer="96"/>
 </instance>
-<instance part="P+8" gate="1" x="-358.14" y="30.48" rot="R270"/>
-<instance part="C34" gate="G$1" x="-378.46" y="27.94">
+<instance part="P+8" gate="1" x="-358.14" y="30.48" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-363.22" y="33.02" size="1.778" layer="96"/>
+</instance>
+<instance part="C34" gate="G$1" x="-378.46" y="27.94" smashed="yes">
 <attribute name="OC_FARNELL" x="-378.46" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-378.46" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-378.46" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-376.936" y="28.321" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-376.936" y="23.241" size="1.778" layer="96"/>
 </instance>
-<instance part="C35" gate="G$1" x="-367.792" y="27.94">
+<instance part="C35" gate="G$1" x="-367.792" y="27.94" smashed="yes">
 <attribute name="OC_FARNELL" x="-367.792" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-367.792" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-367.792" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-366.776" y="28.575" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-366.776" y="23.749" size="1.778" layer="96"/>
 </instance>
-<instance part="C33" gate="G$1" x="-388.62" y="27.94">
+<instance part="C33" gate="G$1" x="-388.62" y="27.94" smashed="yes">
 <attribute name="OC_FARNELL" x="-388.62" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-388.62" y="27.94" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-388.62" y="27.94" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-387.096" y="28.321" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-387.096" y="23.241" size="1.778" layer="96"/>
 </instance>
 <instance part="L1" gate="G$1" x="-360.68" y="93.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="-360.172" y="97.536" size="1.778" layer="95" rot="R180"/>
@@ -10090,30 +10128,40 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MF" x="-441.96" y="68.58" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-441.96" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R8" gate="G$1" x="-477.52" y="81.28" rot="R180">
+<instance part="R8" gate="G$1" x="-477.52" y="81.28" smashed="yes" rot="R180">
 <attribute name="OC_FARNELL" x="-477.52" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-477.52" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-477.52" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-473.71" y="79.7814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-473.71" y="84.582" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R9" gate="G$1" x="-457.2" y="81.28" rot="R180">
+<instance part="R9" gate="G$1" x="-457.2" y="81.28" smashed="yes" rot="R180">
 <attribute name="OC_FARNELL" x="-457.2" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-457.2" y="81.28" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-457.2" y="81.28" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-453.39" y="79.7814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-453.39" y="84.582" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R10" gate="G$1" x="-477.52" y="71.12" rot="R180">
+<instance part="R10" gate="G$1" x="-477.52" y="71.12" smashed="yes" rot="R180">
 <attribute name="OC_FARNELL" x="-477.52" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-477.52" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-477.52" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-473.71" y="69.6214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-473.71" y="74.422" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R11" gate="G$1" x="-467.36" y="71.12" rot="R180">
+<instance part="R11" gate="G$1" x="-467.36" y="71.12" smashed="yes" rot="R180">
 <attribute name="OC_FARNELL" x="-467.36" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-467.36" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-467.36" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-463.55" y="69.6214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-463.55" y="74.422" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R12" gate="G$1" x="-457.2" y="71.12" rot="R180">
+<instance part="R12" gate="G$1" x="-457.2" y="71.12" smashed="yes" rot="R180">
 <attribute name="OC_FARNELL" x="-457.2" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-457.2" y="71.12" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-457.2" y="71.12" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-453.39" y="69.6214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="-453.39" y="74.422" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="+3V35" gate="G$1" x="-393.7" y="177.8" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-394.716" y="178.816" size="1.778" layer="96" rot="R180"/>
@@ -10121,44 +10169,74 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <instance part="SUPPLY5" gate="GND" x="-220.98" y="195.58" smashed="yes"/>
 <instance part="SUPPLY8" gate="GND" x="-335.28" y="172.72" smashed="yes"/>
 <instance part="SUPPLY7" gate="GND" x="-411.48" y="185.42" smashed="yes"/>
-<instance part="SH1" gate="G$1" x="-227.076" y="129.286" rot="R180">
+<instance part="SH1" gate="G$1" x="-227.076" y="129.286" smashed="yes" rot="R180">
 <attribute name="OC_FARNELL" x="-227.076" y="129.286" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-227.076" y="129.286" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-227.076" y="129.286" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SH2" gate="G$1" x="-419.1" y="17.78" rot="R180">
+<instance part="SH2" gate="G$1" x="-419.1" y="17.78" smashed="yes" rot="R180">
 <attribute name="OC_FARNELL" x="-419.1" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-419.1" y="17.78" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-419.1" y="17.78" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="+3V38" gate="G$1" x="-247.396" y="129.286" rot="R90"/>
-<instance part="AGND7" gate="VR1" x="-378.46" y="114.3"/>
-<instance part="AGND11" gate="VR1" x="-381" y="88.9" rot="R90"/>
-<instance part="AGND12" gate="VR1" x="-363.22" y="86.36" rot="R270"/>
-<instance part="AGND15" gate="VR1" x="-365.76" y="60.96" rot="R270"/>
-<instance part="AGND13" gate="VR1" x="-381" y="63.5" rot="R90"/>
-<instance part="AGND16" gate="VR1" x="-444.5" y="40.64"/>
-<instance part="AGND14" gate="VR1" x="-482.6" y="60.96"/>
-<instance part="AGND10" gate="VR1" x="-454.66" y="91.44"/>
-<instance part="AGND18" gate="VR1" x="-363.22" y="20.32"/>
+<instance part="+3V38" gate="G$1" x="-247.396" y="129.286" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-242.316" y="126.746" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="AGND7" gate="VR1" x="-378.46" y="114.3" smashed="yes">
+<attribute name="VALUE" x="-381" y="109.22" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="AGND11" gate="VR1" x="-381" y="88.9" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-375.92" y="86.36" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="AGND12" gate="VR1" x="-363.22" y="86.36" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-368.3" y="88.9" size="1.778" layer="96"/>
+</instance>
+<instance part="AGND15" gate="VR1" x="-365.76" y="60.96" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-370.84" y="63.5" size="1.778" layer="96"/>
+</instance>
+<instance part="AGND13" gate="VR1" x="-381" y="63.5" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-375.92" y="60.96" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="AGND16" gate="VR1" x="-444.5" y="40.64" smashed="yes">
+<attribute name="VALUE" x="-447.04" y="35.56" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="AGND14" gate="VR1" x="-482.6" y="60.96" smashed="yes">
+<attribute name="VALUE" x="-485.14" y="55.88" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="AGND10" gate="VR1" x="-454.66" y="91.44" smashed="yes">
+<attribute name="VALUE" x="-457.2" y="86.36" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="AGND18" gate="VR1" x="-363.22" y="20.32" smashed="yes">
+<attribute name="VALUE" x="-365.76" y="15.24" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="SUPPLY18" gate="GND" x="-438.15" y="15.24" smashed="yes"/>
-<instance part="AGND19" gate="VR1" x="-408.94" y="15.24"/>
+<instance part="AGND19" gate="VR1" x="-408.94" y="15.24" smashed="yes">
+<attribute name="VALUE" x="-411.48" y="10.16" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="SUPPLY12" gate="GND" x="-391.16" y="144.78" smashed="yes"/>
-<instance part="AGND17" gate="VR1" x="-407.67" y="23.622"/>
-<instance part="LED1" gate="G$1" x="-345.44" y="228.6">
+<instance part="AGND17" gate="VR1" x="-407.67" y="23.622" smashed="yes">
+<attribute name="VALUE" x="-410.21" y="18.542" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LED1" gate="G$1" x="-345.44" y="228.6" smashed="yes">
 <attribute name="OC_FARNELL" x="-345.44" y="228.6" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-345.44" y="228.6" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-345.44" y="228.6" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-341.884" y="224.028" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-339.725" y="224.028" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R2" gate="G$1" x="-345.44" y="218.44" rot="R90">
+<instance part="R2" gate="G$1" x="-345.44" y="218.44" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" x="-345.44" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-345.44" y="218.44" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-345.44" y="218.44" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-346.9386" y="214.63" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-342.138" y="214.63" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R1" gate="G$1" x="-332.74" y="226.06" rot="R90">
+<instance part="R1" gate="G$1" x="-332.74" y="226.06" smashed="yes" rot="R90">
 <attribute name="OC_FARNELL" x="-332.74" y="226.06" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-332.74" y="226.06" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-332.74" y="226.06" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-334.2386" y="222.25" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-329.438" y="222.25" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="+3V32" gate="G$1" x="-345.44" y="233.68" smashed="yes">
 <attribute name="VALUE" x="-342.646" y="236.22" size="1.778" layer="96" rot="R180"/>
@@ -10170,7 +10248,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MF" x="-314.96" y="226.06" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-314.96" y="226.06" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="J3" gate="G$1" x="-297.18" y="116.84" rot="MR0">
+<instance part="J3" gate="G$1" x="-297.18" y="116.84" smashed="yes" rot="MR0">
 <attribute name="OC_FARNELL" x="-297.18" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-297.18" y="116.84" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-297.18" y="116.84" size="1.778" layer="96" display="off"/>
@@ -10178,7 +10256,9 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <instance part="P+5" gate="1" x="-256.54" y="119.38" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-254" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="AGND8" gate="VR1" x="-292.1" y="109.22"/>
+<instance part="AGND8" gate="VR1" x="-292.1" y="109.22" smashed="yes">
+<attribute name="VALUE" x="-294.64" y="104.14" size="1.778" layer="96" rot="R90"/>
+</instance>
 <instance part="Q1" gate="G$1" x="-271.78" y="119.38" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-281.94" y="121.92" size="1.778" layer="96"/>
 <attribute name="NAME" x="-271.78" y="111.76" size="1.778" layer="95"/>
@@ -10186,14 +10266,18 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MF" x="-271.78" y="119.38" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-271.78" y="119.38" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="AGND9" gate="VR1" x="-269.24" y="104.14"/>
-<instance part="J1" gate="G$1" x="-226.06" y="220.98" rot="MR180">
+<instance part="AGND9" gate="VR1" x="-269.24" y="104.14" smashed="yes">
+<attribute name="VALUE" x="-271.78" y="99.06" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="J1" gate="G$1" x="-226.06" y="220.98" smashed="yes" rot="MR180">
 <attribute name="OC_FARNELL" x="-226.06" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-226.06" y="220.98" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-226.06" y="220.98" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-220.98" y="213.36" size="1.27" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="-226.06" y="231.14" size="1.27" layer="96" font="vector" rot="MR180"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="-231.14" y="228.6" smashed="yes" rot="R180"/>
-<instance part="J2" gate="G$1" x="-231.14" y="198.12">
+<instance part="J2" gate="G$1" x="-231.14" y="198.12" smashed="yes">
 <attribute name="OC_FARNELL" x="-231.14" y="198.12" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-231.14" y="198.12" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-231.14" y="198.12" size="1.778" layer="96" display="off"/>
@@ -10201,7 +10285,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <instance part="P+2" gate="1" x="-241.3" y="223.52" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-241.3" y="226.06" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="U3" gate="G$1" x="-259.08" y="160.02" rot="R180">
+<instance part="U3" gate="G$1" x="-259.08" y="160.02" smashed="yes" rot="R180">
 <attribute name="OC_FARNELL" x="-259.08" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-259.08" y="160.02" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-259.08" y="160.02" size="1.778" layer="96" display="off"/>
@@ -10244,12 +10328,12 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MF" x="-295.148" y="132.08" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-295.148" y="132.08" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C11" gate="G$1" x="-295.148" y="142.24" smashed="yes" rot="R180">
-<attribute name="NAME" x="-289.56" y="141.351" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="-288.544" y="146.431" size="1.778" layer="96" rot="R180"/>
-<attribute name="OC_FARNELL" x="-295.148" y="142.24" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-295.148" y="142.24" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-295.148" y="142.24" size="1.778" layer="96" display="off"/>
+<instance part="C11" gate="G$1" x="-289.306" y="144.78" smashed="yes">
+<attribute name="NAME" x="-287.274" y="145.669" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-288.29" y="140.589" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="-289.306" y="144.78" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MF" x="-289.306" y="144.78" size="1.778" layer="96" rot="R180" display="off"/>
+<attribute name="MPN" x="-289.306" y="144.78" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="-302.26" y="144.78" smashed="yes">
 <attribute name="NAME" x="-300.482" y="140.335" size="1.778" layer="95"/>
@@ -10265,7 +10349,9 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MF" x="-302.26" y="134.62" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-302.26" y="134.62" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="+3V37" gate="G$1" x="-308.61" y="129.54" rot="R90"/>
+<instance part="+3V37" gate="G$1" x="-308.61" y="129.54" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-303.53" y="127" size="1.778" layer="96" rot="R180"/>
+</instance>
 <instance part="C4" gate="G$1" x="-213.868" y="177.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="-215.138" y="176.657" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-212.09" y="185.547" size="1.778" layer="96" rot="R180"/>
@@ -10297,38 +10383,47 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MF" x="-182.88" y="157.48" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-182.88" y="157.48" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="R5" gate="G$1" x="-193.04" y="177.8">
+<instance part="R5" gate="G$1" x="-193.04" y="177.8" smashed="yes">
 <attribute name="OC_FARNELL" x="-193.04" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-193.04" y="177.8" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-193.04" y="177.8" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-196.85" y="179.2986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-196.85" y="174.498" size="1.778" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="-193.04" y="162.56">
+<instance part="R6" gate="G$1" x="-193.04" y="162.56" smashed="yes">
 <attribute name="OC_FARNELL" x="-193.04" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-193.04" y="162.56" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-193.04" y="162.56" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-196.85" y="164.0586" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-196.85" y="159.258" size="1.778" layer="96"/>
 </instance>
 <instance part="AGND3" gate="VR1" x="-185.42" y="167.64" smashed="yes"/>
 <instance part="AGND4" gate="VR1" x="-182.88" y="149.86" smashed="yes"/>
-<instance part="+3V36" gate="G$1" x="-288.29" y="152.4" rot="R90"/>
-<instance part="J4" gate="G$1" x="-162.56" y="91.44" rot="MR180">
+<instance part="+3V36" gate="G$1" x="-288.29" y="152.4" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-283.21" y="149.86" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="J4" gate="G$1" x="-162.56" y="91.44" smashed="yes" rot="MR180">
 <attribute name="OC_FARNELL" x="-162.56" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-162.56" y="91.44" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-162.56" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-157.48" y="83.82" size="1.27" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="-162.56" y="101.6" size="1.27" layer="96" font="vector" rot="MR180"/>
 </instance>
 <instance part="+3V39" gate="G$1" x="-195.58" y="111.76" smashed="yes">
 <attribute name="VALUE" x="-193.04" y="114.3" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY16" gate="GND" x="-172.72" y="99.06" smashed="yes" rot="R180"/>
-<instance part="U4" gate="G$1" x="-193.04" y="93.98">
+<instance part="U4" gate="G$1" x="-193.04" y="93.98" smashed="yes">
 <attribute name="OC_FARNELL" x="-193.04" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="MF" x="-193.04" y="93.98" size="1.778" layer="96" display="off"/>
 <attribute name="MPN" x="-193.04" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="NAME" x="-205.74" y="106.68" size="1.27" layer="95"/>
+<attribute name="VALUE" x="-205.74" y="78.74" size="1.27" layer="96"/>
 </instance>
 <instance part="P+7" gate="1" x="-175.26" y="109.22" smashed="yes">
 <attribute name="VALUE" x="-175.26" y="111.76" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="SUPPLY17" gate="GND" x="-193.04" y="76.2" smashed="yes"/>
-<instance part="SUPPLY15" gate="GND" x="-213.36" y="104.14" smashed="yes"/>
 <instance part="C19" gate="G$1" x="-457.2" y="99.06" smashed="yes" rot="R270">
 <attribute name="NAME" x="-464.058" y="97.155" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-460.756" y="101.981" size="1.778" layer="96"/>
@@ -10346,13 +10441,22 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <instance part="P+6" gate="1" x="-449.58" y="114.3" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="-452.12" y="116.84" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="AGND1" gate="VR1" x="-345.44" y="210.82"/>
-<instance part="R14" gate="G$1" x="-299.72" y="236.22">
+<instance part="AGND1" gate="VR1" x="-345.44" y="210.82" smashed="yes">
+<attribute name="VALUE" x="-347.98" y="205.74" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R14" gate="G$1" x="-299.72" y="236.22" smashed="yes">
 <attribute name="OC_FARNELL" x="-299.72" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MF" x="-299.72" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
 <attribute name="MPN" x="-299.72" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="-303.53" y="237.7186" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-303.53" y="232.918" size="1.778" layer="96"/>
 </instance>
-<instance part="AGND20" gate="VR1" x="-304.8" y="231.14"/>
+<instance part="AGND20" gate="VR1" x="-304.8" y="231.14" smashed="yes">
+<attribute name="VALUE" x="-307.34" y="226.06" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="P+9" gate="1" x="-213.36" y="109.22" smashed="yes">
+<attribute name="VALUE" x="-213.36" y="111.76" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10458,21 +10562,23 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <junction x="-220.98" y="200.66"/>
 </segment>
 <segment>
-<pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="C14" gate="G$1" pin="1"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="-302.26" y1="139.7" x2="-302.26" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="C15" gate="G$1" pin="-"/>
-<pinref part="C11" gate="G$1" pin="+"/>
-<wire x1="-295.148" y1="139.7" x2="-295.148" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="-302.26" y1="139.7" x2="-295.148" y2="139.7" width="0.1524" layer="91"/>
 <junction x="-302.26" y="139.7"/>
-<junction x="-295.148" y="139.7"/>
 <pinref part="SUPPLY13" gate="GND" pin="GND"/>
 <wire x1="-307.34" y1="139.7" x2="-302.26" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="-295.148" y1="139.7" x2="-281.94" y2="139.7" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="-"/>
+<wire x1="-302.26" y1="139.7" x2="-295.148" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-294.64" y1="139.7" x2="-289.306" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="-281.94" y1="139.7" x2="-281.94" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="DGND-19"/>
 <wire x1="-281.94" y1="142.24" x2="-276.86" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-289.306" y1="139.7" x2="-281.94" y2="139.7" width="0.1524" layer="91"/>
+<junction x="-289.306" y="139.7"/>
+<pinref part="C15" gate="G$1" pin="-"/>
+<wire x1="-295.148" y1="137.16" x2="-295.148" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="-295.148" y1="139.7" x2="-294.64" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY6" gate="GND" pin="GND"/>
@@ -10500,12 +10606,6 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <segment>
 <pinref part="U4" gate="G$1" pin="GND"/>
 <pinref part="SUPPLY17" gate="GND" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="OE"/>
-<wire x1="-208.28" y1="96.52" x2="-208.28" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="SUPPLY15" gate="GND" pin="GND"/>
-<wire x1="-213.36" y1="106.68" x2="-208.28" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="PCM_FS" class="0">
@@ -10604,6 +10704,12 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <wire x1="-447.04" y1="109.22" x2="-449.58" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
 <wire x1="-449.58" y1="111.76" x2="-449.58" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="OE"/>
+<wire x1="-208.28" y1="96.52" x2="-208.28" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-213.36" y1="106.68" x2="-208.28" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="P+9" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -11336,16 +11442,6 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <wire x1="-231.14" y1="142.24" x2="-238.76" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="LDOO-18"/>
-<pinref part="C11" gate="G$1" pin="-"/>
-<wire x1="-276.86" y1="147.32" x2="-295.148" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="1"/>
-<wire x1="-295.148" y1="147.32" x2="-302.26" y2="147.32" width="0.1524" layer="91"/>
-<junction x="-295.148" y="147.32"/>
-</segment>
-</net>
 <net name="N$11" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="6-OUTL"/>
@@ -11426,6 +11522,16 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pinref part="C30" gate="G$1" pin="1"/>
 <pinref part="U5" gate="G$1" pin="RINP-12"/>
 <wire x1="-452.12" y1="53.34" x2="-431.8" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="LDOO-18"/>
+<pinref part="C11" gate="G$1" pin="+"/>
+<wire x1="-276.86" y1="147.32" x2="-289.306" y2="147.32" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="-289.306" y1="147.32" x2="-302.26" y2="147.32" width="0.1524" layer="91"/>
+<junction x="-289.306" y="147.32"/>
 </segment>
 </net>
 </nets>
