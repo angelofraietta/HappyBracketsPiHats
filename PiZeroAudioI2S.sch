@@ -4069,7 +4069,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="HappyBrackets" urn="urn:adsk.eagle:library:5224691">
+<library name="HappyBrackets" urn="urn:adsk.eagle:library:18716253">
 <packages>
 <package name="LGA-16-3X3" urn="urn:adsk.eagle:footprint:5224693/1" library_version="1" library_locally_modified="yes">
 <description>&lt;h3&gt;16-Pin Land Grid Array (LGA) (3 x 3 mm)&lt;/h3&gt;
@@ -9287,7 +9287,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 </part>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="LSM6DS33" device="LGA-16-3X3" package3d_urn="urn:adsk.eagle:package:5224694/1" value="LSM6DS33">
+<part name="U2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="LSM6DS33" device="LGA-16-3X3" package3d_urn="urn:adsk.eagle:package:5224694/1" value="LSM6DS33">
 <attribute name="MF" value="STMICROELECTRONICS"/>
 <attribute name="MPN" value="LSM6DS33TR"/>
 <attribute name="OC_FARNELL" value="2762756"/>
@@ -9349,12 +9349,12 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="J5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="4X1-LOCKING" device="">
+<part name="J5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="4X1-LOCKING" device="">
 <attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-23-2041"/>
 <attribute name="OC_FARNELL" value="1462920"/>
 </part>
-<part name="U5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="TPA3144D2PWPR" device="" package3d_urn="urn:adsk.eagle:package:39216/1">
+<part name="U5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="TPA3144D2PWPR" device="" package3d_urn="urn:adsk.eagle:package:39216/1">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -9371,7 +9371,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="C18" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="1206-POLAR" value="100uF">
+<part name="C18" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="100uF">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="TLJA107M010R1400"/>
 <attribute name="OC_FARNELL" value="2690441"/>
@@ -9442,7 +9442,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="C35" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="1206-POLAR" value="100uF">
+<part name="C35" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="100uF">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="TLJA107M010R1400"/>
 <attribute name="OC_FARNELL" value="2690441"/>
@@ -9458,22 +9458,22 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MPN" value="06035C102KAT2A"/>
 <attribute name="OC_FARNELL" value="499134"/>
 </part>
-<part name="L1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB">
+<part name="L1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="L2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB">
+<part name="L2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="L3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB">
+<part name="L3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="L4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB">
+<part name="L4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -9606,12 +9606,12 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SH1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="SHORT" device="">
+<part name="SH1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="SHORT" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="SH2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="SHORT" device="">
+<part name="SH2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="SHORT" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -9651,32 +9651,32 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="J3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="2X1-LOCKING" device="">
+<part name="J3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="2X1-LOCKING" device="">
 <attribute name="MF" value="MOLEX"/>
 <attribute name="MPN" value="22-23-2021"/>
 <attribute name="OC_FARNELL" value="1462926"/>
 </part>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="AGND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="Q1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="DMG2305UX" device="" package3d_urn="urn:adsk.eagle:package:21294/1">
+<part name="Q1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="DMG2305UX" device="" package3d_urn="urn:adsk.eagle:package:21294/1">
 <attribute name="MF" value="DIODES INC."/>
 <attribute name="MPN" value="DMG2305UX-7"/>
 <attribute name="OC_FARNELL" value="2543533"/>
 </part>
 <part name="AGND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="J1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="GROVE" device="">
+<part name="J1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="GROVE" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="2X2HEADER" device="">
+<part name="J2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="2X2HEADER" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="U3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="PCM5101A" device="" package3d_urn="urn:adsk.eagle:package:32642/1">
+<part name="U3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="PCM5101A" device="" package3d_urn="urn:adsk.eagle:package:32642/1">
 <attribute name="MF" value="TEXAS INSTRUMENTS"/>
 <attribute name="MPN" value="PCM5101AQPWRQ1"/>
 <attribute name="OC_FARNELL" value="2402250"/>
@@ -9714,7 +9714,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="C13" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
+<part name="C13" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="F931C106MAA"/>
 <attribute name="OC_FARNELL" value="2852673"/>
@@ -9722,12 +9722,12 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="AGND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C15" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
+<part name="C15" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="F931C106MAA"/>
 <attribute name="OC_FARNELL" value="2852673"/>
 </part>
-<part name="C11" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
+<part name="C11" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="F931C106MAA"/>
 <attribute name="OC_FARNELL" value="2852673"/>
@@ -9755,7 +9755,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="+3V37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
+<part name="C4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="F931C106MAA"/>
 <attribute name="OC_FARNELL" value="2852673"/>
@@ -9809,7 +9809,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="AGND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="+3V36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="J4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="GROVE" device="">
+<part name="J4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="GROVE" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>

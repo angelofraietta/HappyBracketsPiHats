@@ -4131,7 +4131,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="HappyBrackets" urn="urn:adsk.eagle:library:5224691">
+<library name="HappyBrackets" urn="urn:adsk.eagle:library:18716253">
 <packages>
 <package name="LGA-16-3X3" urn="urn:adsk.eagle:footprint:5224693/1" library_version="1" library_locally_modified="yes">
 <description>&lt;h3&gt;16-Pin Land Grid Array (LGA) (3 x 3 mm)&lt;/h3&gt;
@@ -9240,8 +9240,8 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="CON1" library="RPI-Zero" deviceset="RPI-ZERO" device="" value="RPI-Header"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="C3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="1206-POLAR" value="47uF"/>
-<part name="C6" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="1206-POLAR" value="47uF"/>
+<part name="C3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="47uF"/>
+<part name="C6" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="47uF"/>
 <part name="R5" library="adafruit" deviceset="R-US_" device="R0603" value="220"/>
 <part name="R6" library="adafruit" deviceset="R-US_" device="R0603" value="100"/>
 <part name="R8" library="adafruit" deviceset="R-US_" device="R0603" value="220"/>
@@ -9252,7 +9252,7 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="R7" library="adafruit" deviceset="R-US_" device="R0603" value="1K8"/>
 <part name="R10" library="adafruit" deviceset="R-US_" device="R0603" value="1K8"/>
-<part name="U2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="LSM6DS33" device="LGA-16-3X3" package3d_urn="urn:adsk.eagle:package:5224694/1" value="LSM6DS33"/>
+<part name="U2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="LSM6DS33" device="LGA-16-3X3" package3d_urn="urn:adsk.eagle:package:5224694/1" value="LSM6DS33"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="+3V34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
@@ -9268,11 +9268,11 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="J4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="4X1-LOCKING" device=""/>
-<part name="U5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="TPA3144D2PWPR" device="" package3d_urn="urn:adsk.eagle:package:39216/1"/>
+<part name="J4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="4X1-LOCKING" device=""/>
+<part name="U5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="TPA3144D2PWPR" device="" package3d_urn="urn:adsk.eagle:package:39216/1"/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="C11" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="1206-POLAR" value="100uF"/>
+<part name="C11" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="100uF"/>
 <part name="R11" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
 <part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF"/>
@@ -9281,12 +9281,12 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="R19" library="adafruit" deviceset="R-US_" device="R0603" value="10R"/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="C26" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="1206-POLAR" value="100uF"/>
+<part name="C26" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="100uF"/>
 <part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF"/>
-<part name="L1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB"/>
-<part name="L2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB"/>
-<part name="L3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB"/>
-<part name="L4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB"/>
+<part name="L1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB"/>
+<part name="L2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB"/>
+<part name="L3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB"/>
+<part name="L4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="NFZ2MSM" device="L0806" package3d_urn="urn:adsk.eagle:package:32724/1" value="FB"/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF"/>
 <part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1nF"/>
@@ -9305,8 +9305,8 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SH1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="SHORT" device=""/>
-<part name="SH2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="SHORT" device=""/>
+<part name="SH1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="SHORT" device=""/>
+<part name="SH2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="SHORT" device=""/>
 <part name="+3V36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="AGND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
@@ -9330,16 +9330,16 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="+3V32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="JP1" library="adafruit" deviceset="PINHD-1X3" device="" value="Header 1x3"/>
-<part name="J3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="2X1-LOCKING" device=""/>
+<part name="J3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="2X1-LOCKING" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="AGND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="Q1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="DMG2305UX" device="" package3d_urn="urn:adsk.eagle:package:21294/1"/>
+<part name="Q1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="DMG2305UX" device="" package3d_urn="urn:adsk.eagle:package:21294/1"/>
 <part name="AGND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="J1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="GROVE" device=""/>
+<part name="J1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="GROVE" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="2X2HEADER" device=""/>
+<part name="J2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="2X2HEADER" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="I2C" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="GROVE" device=""/>
+<part name="I2C" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="GROVE" device=""/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U6" library="adafruit" deviceset="TXS0102" device="" value="TXS0102"/>

@@ -452,7 +452,7 @@ by exp-project-lbr.ulp</description>
 </package>
 </packages>
 </library>
-<library name="HappyBrackets" urn="urn:adsk.eagle:library:5224691">
+<library name="HappyBrackets" urn="urn:adsk.eagle:library:18716253">
 <packages>
 <package name="LGA-16-3X3" urn="urn:adsk.eagle:footprint:5224693/1" library_version="1" library_locally_modified="yes">
 <description>&lt;h3&gt;16-Pin Land Grid Array (LGA) (3 x 3 mm)&lt;/h3&gt;
@@ -3488,7 +3488,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="-78.74" y="1.27" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="-78.74" y="1.27" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="LGA-16-3X3" package3d_urn="urn:adsk.eagle:package:5224694/1" value="LSM6DS33" x="-63.7924" y="22.733" smashed="yes" rot="R270">
+<element name="U2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="LGA-16-3X3" package3d_urn="urn:adsk.eagle:package:5224694/1" value="LSM6DS33" x="-63.7924" y="22.733" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="497-15996-1-ND" x="-63.7924" y="22.733" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="STMICROELECTRONICS" x="-63.7924" y="22.733" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="LSM6DS33TR" x="-63.7924" y="22.733" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3534,7 +3534,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-24.5872" y="20.193" size="0.8128" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="1607891" x="-24.2824" y="22.1488" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J7" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="22-23-2041" value="4X1-LOCKING" x="-36.6522" y="4.7244" smashed="yes">
+<element name="J7" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="22-23-2041" value="4X1-LOCKING" x="-36.6522" y="4.7244" smashed="yes">
 <attribute name="DIGIKEY" value="WM4202-ND" x="-36.6522" y="4.7244" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="-36.6522" y="4.7244" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-36.6522" y="4.7244" size="1.778" layer="27" display="off"/>
@@ -3549,7 +3549,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="-42.633390625" y="9.672775" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-42.633390625" y="9.672775" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C20" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="EIA7343" value="470uF" x="-59.309" y="15.7988" smashed="yes">
+<element name="C20" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="EIA7343" value="470uF" x="-59.309" y="15.7988" smashed="yes">
 <attribute name="MF" value="VISHAY" x="-59.309" y="15.7988" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="293D477X9010E2TE3" x="-59.309" y="15.7988" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-58.6994" y="17.8308" size="0.6096" layer="25" font="vector" ratio="20" rot="R180"/>
@@ -3575,12 +3575,12 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="-47.5109" y="19.431" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="-47.5109" y="19.431" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SH1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="SHORT" value="SHORT" x="-25.4762" y="17.4244" smashed="yes" rot="R90">
+<element name="SH1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="SHORT" value="SHORT" x="-25.4762" y="17.4244" smashed="yes" rot="R90">
 <attribute name="MF" value="" x="-25.4762" y="17.4244" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="-25.4762" y="17.4244" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="-25.4762" y="17.4244" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SH2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="SHORT" value="SHORT" x="-44.1452" y="21.2852" smashed="yes" rot="R180">
+<element name="SH2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="SHORT" value="SHORT" x="-44.1452" y="21.2852" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="-44.1452" y="21.2852" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-44.1452" y="21.2852" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="-44.1452" y="21.2852" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3611,35 +3611,35 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="-76.8858" y="21.463" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-80.0608" y="25.273" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="22-23-2021" value="2X1-LOCKING" x="-44.958" y="4.7244" smashed="yes">
+<element name="J5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="22-23-2021" value="2X1-LOCKING" x="-44.958" y="4.7244" smashed="yes">
 <attribute name="DIGIKEY" value="WM4200-ND" x="-44.958" y="4.7244" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="-44.958" y="4.7244" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-44.958" y="4.7244" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-45.5168" y="1.9812" size="1.016" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="unknown" x="-44.958" y="4.7244" size="1.778" layer="27" display="off"/>
 </element>
-<element name="Q1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="SOT23" package3d_urn="urn:adsk.eagle:package:21294/1" value="DMG2305UX" x="-66.675" y="6.9088" smashed="yes">
+<element name="Q1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="SOT23" package3d_urn="urn:adsk.eagle:package:21294/1" value="DMG2305UX" x="-66.675" y="6.9088" smashed="yes">
 <attribute name="DIGIKEY" value="DMG2305UX-7DICT-ND" x="-66.675" y="6.9088" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="DIODES INC." x="-66.675" y="6.9088" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="DMG2305UX-7" x="-66.675" y="6.9088" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="-67.2338" y="4.9784" size="0.8128" layer="25" font="vector" ratio="20"/>
 <attribute name="OC_FARNELL" value="2543533" x="-66.675" y="6.9088" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="JST-PH4" value="GROVE" x="-17.5006" y="19.177" smashed="yes" rot="R90">
+<element name="J1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="JST-PH4" value="GROVE" x="-17.5006" y="19.177" smashed="yes" rot="R90">
 <attribute name="DIGIKEY" value="1597-1082-ND" x="-17.5006" y="19.177" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MF" value="" x="-17.5006" y="19.177" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="-17.5006" y="19.177" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-18.3845" y="18.241" size="1.27" layer="25" font="vector" ratio="20" rot="R90"/>
 <attribute name="OC_FARNELL" value="unknown" x="-17.5006" y="19.177" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="J2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="2X2" value="2X2HEADER" x="-17.8054" y="8.3058" smashed="yes" rot="R270">
+<element name="J2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="2X2" value="2X2HEADER" x="-17.8054" y="8.3058" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="-17.8054" y="8.3058" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="-17.8054" y="8.3058" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="-18.3134" y="11.6586" size="1.27" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="OC_FARNELL" value="unknown" x="-17.8054" y="8.3058" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-22.2504" y="13.3858" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="U3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="TSSOP20-0.65-6.5X4.4MM" package3d_urn="urn:adsk.eagle:package:32642/1" value="PCM5101A" x="-31.2928" y="16.2052" smashed="yes">
+<element name="U3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="TSSOP20-0.65-6.5X4.4MM" package3d_urn="urn:adsk.eagle:package:32642/1" value="PCM5101A" x="-31.2928" y="16.2052" smashed="yes">
 <attribute name="DIGIKEY" value="296-36706-1-ND" x="-31.2928" y="16.2052" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="TEXAS INSTRUMENTS" x="-31.2928" y="16.2052" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="PCM5101AQPWRQ1" x="-31.2928" y="16.2052" size="1.778" layer="27" display="off"/>
@@ -3671,21 +3671,21 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="-33.9344" y="9.6012" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-32.0294" y="8.9662" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C14" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="EIA3216" value="10uF" x="-36.9062" y="11.0744" smashed="yes" rot="R90">
+<element name="C14" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="EIA3216" value="10uF" x="-36.9062" y="11.0744" smashed="yes" rot="R90">
 <attribute name="MF" value="AVX" x="-36.9062" y="11.0744" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="F931C106MAA" x="-36.9062" y="11.0744" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="-35.8648" y="9.5504" size="0.8128" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="OC_FARNELL" value="2852673" x="-36.9062" y="11.0744" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="-33.9852" y="9.4234" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="C16" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="EIA3216" value="10uF" x="-38.5064" y="23.5458" smashed="yes" rot="R180">
+<element name="C16" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="EIA3216" value="10uF" x="-38.5064" y="23.5458" smashed="yes" rot="R180">
 <attribute name="MF" value="AVX" x="-38.5064" y="23.5458" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="F931C106MAA" x="-38.5064" y="23.5458" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-37.5666" y="22.4536" size="0.8128" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="OC_FARNELL" value="2852673" x="-38.5064" y="23.5458" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-36.8554" y="26.4668" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C11" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="EIA3216" value="10uF" x="-33.28390625" y="23.55723125" smashed="yes" rot="R180">
+<element name="C11" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="EIA3216" value="10uF" x="-33.28390625" y="23.55723125" smashed="yes" rot="R180">
 <attribute name="MF" value="AVX" x="-33.28390625" y="23.55723125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="F931C106MAA" x="-33.28390625" y="23.55723125" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-34.12210625" y="21.60143125" size="0.8128" layer="25" font="vector" ratio="20"/>
@@ -3708,7 +3708,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="C" x="-39.2684" y="19.9136" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="-38.6334" y="21.8186" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="EIA3216" value="10uF" x="-24.13" y="13.6652" smashed="yes" rot="R180">
+<element name="C4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="EIA3216" value="10uF" x="-24.13" y="13.6652" smashed="yes" rot="R180">
 <attribute name="MF" value="AVX" x="-24.13" y="13.6652" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="F931C106MAA" x="-24.13" y="13.6652" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="-23.622" y="15.5956" size="0.8128" layer="25" font="vector" ratio="20" rot="R180"/>
@@ -3753,7 +3753,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="2303120" x="-27.8892" y="9.6012" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="-29.9212" y="10.4902" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="J6" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="JST-PH4" value="GROVE" x="-26.2636" y="3.4544" smashed="yes">
+<element name="J6" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="JST-PH4" value="GROVE" x="-26.2636" y="3.4544" smashed="yes">
 <attribute name="DIGIKEY" value="1597-1082-ND" x="-26.2636" y="3.4544" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="-26.2636" y="3.4544" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="-26.2636" y="3.4544" size="1.778" layer="27" display="off"/>
@@ -3766,7 +3766,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-53.6846" y="23.022" size="0.8128" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="OC_FARNELL" value="unknown" x="-54.2036" y="22.606" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U7" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="SOP-16" value="PAM8403" x="-48.9966" y="13.589" smashed="yes" rot="R180">
+<element name="U7" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="SOP-16" value="PAM8403" x="-48.9966" y="13.589" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="PAM8403DRDICT-ND" x="-48.9966" y="13.589" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="-48.9966" y="13.589" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-48.9966" y="13.589" size="1.778" layer="27" rot="R180" display="off"/>
@@ -3857,7 +3857,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-60.96" y="13.0556" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="OC_FARNELL" value="2426957" x="-60.96" y="11.938" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="USB-MICROB-PTH" value="AMP FCI 10103594-0001LF" x="-52.4764" y="6.2484" smashed="yes">
+<element name="J4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="USB-MICROB-PTH" value="AMP FCI 10103594-0001LF" x="-52.4764" y="6.2484" smashed="yes">
 <attribute name="DIGIKEY" value="609-4050-1-ND" x="-52.4764" y="6.2484" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="AMPHENOL ICC (FCI)" x="-52.4764" y="6.2484" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="10103594-0001LF" x="-52.4764" y="6.2484" size="1.778" layer="27" display="off"/>
@@ -3870,7 +3870,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-57.5818" y="11.4554" size="0.6096" layer="25" font="vector" ratio="20" rot="R180" align="bottom-center"/>
 <attribute name="OC_FARNELL" value="1152123" x="-57.5818" y="12.2174" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="L1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" package="IND_IFSC_1515AH" value="2.2uH" x="-65.4812" y="11.2776" smashed="yes" rot="R180">
+<element name="L1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" package="IND_IFSC_1515AH" value="2.2uH" x="-65.4812" y="11.2776" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="541-1404-1-ND" x="-65.4812" y="11.2776" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="VISHAY" x="-65.4812" y="11.2776" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="IFSC1515AHER2R2M01" x="-65.4812" y="11.2776" size="1.778" layer="27" rot="R180" display="off"/>

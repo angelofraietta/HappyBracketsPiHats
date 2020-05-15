@@ -4072,7 +4072,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="HappyBrackets" urn="urn:adsk.eagle:library:5224691">
+<library name="HappyBrackets" urn="urn:adsk.eagle:library:18716253">
 <packages>
 <package name="LGA-16-3X3" urn="urn:adsk.eagle:footprint:5224693/1" library_version="1" library_locally_modified="yes">
 <description>&lt;h3&gt;16-Pin Land Grid Array (LGA) (3 x 3 mm)&lt;/h3&gt;
@@ -14889,7 +14889,7 @@ Source: AVX .. aphvc.pdf</description>
 </part>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="LSM6DS33" device="LGA-16-3X3" package3d_urn="urn:adsk.eagle:package:5224694/1" value="LSM6DS33">
+<part name="U2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="LSM6DS33" device="LGA-16-3X3" package3d_urn="urn:adsk.eagle:package:5224694/1" value="LSM6DS33">
 <attribute name="MF" value="STMICROELECTRONICS"/>
 <attribute name="MPN" value="LSM6DS33TR"/>
 <attribute name="OC_FARNELL" value="2762756"/>
@@ -14951,7 +14951,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="J7" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="4X1-LOCKING" device="">
+<part name="J7" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="4X1-LOCKING" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -14968,7 +14968,7 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="C20" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="2917-POLAR" value="470uF">
+<part name="C20" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="2917-POLAR" value="470uF">
 <attribute name="MF" value="VISHAY"/>
 <attribute name="MPN" value="293D477X9010E2TE3"/>
 <attribute name="OC_FARNELL" value="2353079"/>
@@ -15004,12 +15004,12 @@ Source: AVX .. aphvc.pdf</description>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="SH1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="SHORT" device="">
+<part name="SH1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="SHORT" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="SH2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="SHORT" device="">
+<part name="SH2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="SHORT" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -15042,31 +15042,31 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
-<part name="J5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="2X1-LOCKING" device="">
+<part name="J5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="2X1-LOCKING" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="AGND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="Q1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="DMG2305UX" device="" package3d_urn="urn:adsk.eagle:package:21294/1">
+<part name="Q1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="DMG2305UX" device="" package3d_urn="urn:adsk.eagle:package:21294/1">
 <attribute name="MF" value="DIODES INC."/>
 <attribute name="MPN" value="DMG2305UX-7"/>
 <attribute name="OC_FARNELL" value="2543533"/>
 </part>
 <part name="AGND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
-<part name="J1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="GROVE" device="">
+<part name="J1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="GROVE" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="J2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="2X2HEADER" device="">
+<part name="J2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="2X2HEADER" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 </part>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="U3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="PCM5101A" device="" package3d_urn="urn:adsk.eagle:package:32642/1">
+<part name="U3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="PCM5101A" device="" package3d_urn="urn:adsk.eagle:package:32642/1">
 <attribute name="MF" value="TEXAS INSTRUMENTS"/>
 <attribute name="MPN" value="PCM5101AQPWRQ1"/>
 <attribute name="OC_FARNELL" value="2402250"/>
@@ -15104,7 +15104,7 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="MPN" value="MC0603F104Z500CT"/>
 <attribute name="OC_FARNELL" value="1759123"/>
 </part>
-<part name="C14" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
+<part name="C14" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="F931C106MAA"/>
 <attribute name="OC_FARNELL" value="2852673"/>
@@ -15112,12 +15112,12 @@ Source: AVX .. aphvc.pdf</description>
 <part name="AGND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C16" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
+<part name="C16" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="F931C106MAA"/>
 <attribute name="OC_FARNELL" value="2852673"/>
 </part>
-<part name="C11" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
+<part name="C11" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="F931C106MAA"/>
 <attribute name="OC_FARNELL" value="2852673"/>
@@ -15145,7 +15145,7 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="OC_FARNELL" value="1759123"/>
 </part>
 <part name="+3V37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="C4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
+<part name="C4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
 <attribute name="MF" value="AVX"/>
 <attribute name="MPN" value="F931C106MAA"/>
 <attribute name="OC_FARNELL" value="2852673"/>
@@ -15199,7 +15199,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="AGND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="AGND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="AGND" device=""/>
 <part name="+3V36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="J6" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="GROVE" device="">
+<part name="J6" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="GROVE" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -15213,7 +15213,7 @@ Source: AVX .. aphvc.pdf</description>
 </part>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="U7" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="PAM8403" device="">
+<part name="U7" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="PAM8403" device="">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -15293,7 +15293,7 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="MPN" value="GRM188R61A226ME15D"/>
 <attribute name="OC_FARNELL" value="2426957"/>
 </part>
-<part name="J4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="AMP10103594-0001LF" device="" value="AMP FCI 10103594-0001LF">
+<part name="J4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="AMP10103594-0001LF" device="" value="AMP FCI 10103594-0001LF">
 <attribute name="MF" value="AMPHENOL ICC (FCI)"/>
 <attribute name="MPN" value="10103594-0001LF"/>
 <attribute name="OC_FARNELL" value="2293752"/>
@@ -15303,7 +15303,7 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="MPN" value="CRCW0603750KFKEA"/>
 <attribute name="OC_FARNELL" value="1152123"/>
 </part>
-<part name="L1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:5224691" deviceset="IFSC1515AHER2R2M01" device="" value="2.2uH">
+<part name="L1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="IFSC1515AHER2R2M01" device="" value="2.2uH">
 <attribute name="MF" value="VISHAY"/>
 <attribute name="MPN" value="IFSC1515AHER2R2M01"/>
 <attribute name="OC_FARNELL" value="2352690"/>
