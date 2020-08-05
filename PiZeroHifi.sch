@@ -8008,10 +8008,25 @@ Source: AVX .. aphvc.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="U2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="LSM6DS33" device="LGA-16-3X3" package3d_urn="urn:adsk.eagle:package:5224694/1" value="LSM6DS33"/>
-<part name="U5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="PAM8403" device=""/>
-<part name="U4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="PCM5101A" device="" package3d_urn="urn:adsk.eagle:package:32642/1"/>
-<part name="U1" library="adafruit" deviceset="TXS0102" device="" value="TXS0102"/>
+<part name="U2" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="LSM6DS33" device="LGA-16-3X3" package3d_urn="urn:adsk.eagle:package:5224694/1" value="LSM6DS33">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="U5" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="PAM8403" device="">
+<attribute name="MF" value="DIODES INC."/>
+<attribute name="OC_FARNELL" value="3373823"/>
+</part>
+<part name="U4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="PCM5101A" device="" package3d_urn="urn:adsk.eagle:package:32642/1">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="U1" library="adafruit" deviceset="TXS0102" device="" value="TXS0102">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
@@ -8022,66 +8037,206 @@ Source: AVX .. aphvc.pdf</description>
 <part name="+3V31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C16" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="WURTH-CAP" device="" value="1500uF"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C16" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="WURTH-CAP" device="" value="1500uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF">
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="OC_FARNELL" value="432210"/>
+</part>
 <part name="SUPPLY11" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY21" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY18" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF"/>
-<part name="C4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2uF">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="C4" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="08053D106KAT2A"/>
+<attribute name="OC_FARNELL" value="1867958"/>
+</part>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF">
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="OC_FARNELL" value="432210"/>
+</part>
 <part name="SUPPLY10" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C19" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF"/>
-<part name="C20" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF"/>
-<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C19" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="08053D106KAT2A"/>
+<attribute name="OC_FARNELL" value="1867958"/>
+</part>
+<part name="C20" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="08053D106KAT2A"/>
+<attribute name="OC_FARNELL" value="1867958"/>
+</part>
+<part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF">
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="OC_FARNELL" value="432210"/>
+</part>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF">
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="OC_FARNELL" value="432210"/>
+</part>
 <part name="+3V35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="+3V34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="SUPPLY19" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R10" library="adafruit" deviceset="R-US_" device="R0603" value="470"/>
-<part name="R11" library="adafruit" deviceset="R-US_" device="R0603" value="470"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2nF"/>
-<part name="R7" library="adafruit" deviceset="R-US_" device="R0603" value="1K"/>
+<part name="R10" library="adafruit" deviceset="R-US_" device="R0603" value="470">
+<attribute name="MF" value="VISHAY"/>
+<attribute name="MPN" value="CRCW0603470RFKEA"/>
+<attribute name="OC_FARNELL" value="1469815"/>
+</part>
+<part name="R11" library="adafruit" deviceset="R-US_" device="R0603" value="470">
+<attribute name="MF" value="VISHAY"/>
+<attribute name="MPN" value="CRCW0603470RFKEA"/>
+<attribute name="OC_FARNELL" value="1469815"/>
+</part>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="06033C104JAT2A"/>
+<attribute name="OC_FARNELL" value="1740614"/>
+</part>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="06033C104JAT2A"/>
+<attribute name="OC_FARNELL" value="1740614"/>
+</part>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2nF">
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MPN" value="CC0603KRX7R9BB222"/>
+<attribute name="OC_FARNELL" value="722194"/>
+</part>
+<part name="R7" library="adafruit" deviceset="R-US_" device="R0603" value="1K">
+<attribute name="MF" value="MULTICOMP PRO"/>
+<attribute name="MPN" value="MCWR06X1001FTL"/>
+<attribute name="OC_FARNELL" value="2447272RL"/>
+</part>
 <part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY14" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R14" library="adafruit" deviceset="R-US_" device="R0603" value="1K"/>
-<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2nF"/>
-<part name="R8" library="adafruit" deviceset="R-US_" device="R0603" value="143K"/>
-<part name="R9" library="adafruit" deviceset="R-US_" device="R0603" value="143K"/>
+<part name="R14" library="adafruit" deviceset="R-US_" device="R0603" value="1K">
+<attribute name="MF" value="MULTICOMP PRO"/>
+<attribute name="MPN" value="MCWR06X1001FTL"/>
+<attribute name="OC_FARNELL" value="2447272RL"/>
+</part>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="2.2nF">
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MPN" value="CC0603KRX7R9BB222"/>
+<attribute name="OC_FARNELL" value="722194"/>
+</part>
+<part name="R8" library="adafruit" deviceset="R-US_" device="R0603" value="143K">
+<attribute name="MF" value="PANASONIC"/>
+<attribute name="MPN" value="ERJ3EKF1433V"/>
+<attribute name="OC_FARNELL" value="2303238"/>
+</part>
+<part name="R9" library="adafruit" deviceset="R-US_" device="R0603" value="143K">
+<attribute name="MF" value="PANASONIC"/>
+<attribute name="MPN" value="ERJ3EKF1433V"/>
+<attribute name="OC_FARNELL" value="2303238"/>
+</part>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
-<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
-<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="06033C104JAT2A"/>
+<attribute name="OC_FARNELL" value="1740614"/>
+</part>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="06033C104JAT2A"/>
+<attribute name="OC_FARNELL" value="1740614"/>
+</part>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1uF">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="06033C104JAT2A"/>
+<attribute name="OC_FARNELL" value="1740614"/>
+</part>
 <part name="SUPPLY22" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY16" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R12" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="U3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="TC1014-3.3V" device="" package3d_urn="urn:adsk.eagle:package:6644337/2"/>
+<part name="R12" library="adafruit" deviceset="R-US_" device="R0603" value="10K">
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="OC_FARNELL" value="9238603"/>
+</part>
+<part name="U3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="TC1014-3.3V" device="" package3d_urn="urn:adsk.eagle:package:6644337/2">
+<attribute name="MF" value="MICROCHIP"/>
+<attribute name="MPN" value="TC1014-3.3VCT713"/>
+<attribute name="OC_FARNELL" value="1331502"/>
+</part>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="470p"/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="470p">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="06035C471KAT2A"/>
+<attribute name="OC_FARNELL" value="498580"/>
+</part>
 <part name="SUPPLY15" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="CON3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="SCREW-TERM-4X5.08MM" device="" package3d_urn="urn:adsk.eagle:package:18716306/1" value="Audio Out"/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="CON3" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="SCREW-TERM-4X5.08MM" device="" package3d_urn="urn:adsk.eagle:package:18716306/1" value="Audio Out">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF">
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="OC_FARNELL" value="432210"/>
+</part>
 <part name="SUPPLY13" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="R13" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
+<part name="R13" library="adafruit" deviceset="R-US_" device="R0603" value="10K">
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="OC_FARNELL" value="9238603"/>
+</part>
 <part name="SUPPLY20" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C21" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF"/>
+<part name="C21" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="CAP-POLARISED" device="1206-POLAR" value="10uF">
+<attribute name="MF" value="AVX"/>
+<attribute name="MPN" value="08053D106KAT2A"/>
+<attribute name="OC_FARNELL" value="1867958"/>
+</part>
 <part name="SUPPLY23" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
-<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF">
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="OC_FARNELL" value="432210"/>
+</part>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="R15" library="adafruit" deviceset="R-US_" device="R0603" value="10K"/>
-<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="R16" library="adafruit" deviceset="R-US_" device="R0603" value="1K"/>
-<part name="CON1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="RPI-ZERO" device="PI-ZERO-THRUHOLE" package3d_urn="urn:adsk.eagle:package:18716324/1"/>
+<part name="R15" library="adafruit" deviceset="R-US_" device="R0603" value="10K">
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="OC_FARNELL" value="9238603"/>
+</part>
+<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF">
+<attribute name="MF" value="YAGEO"/>
+<attribute name="MPN" value="CC0603KRX7R7BB104"/>
+<attribute name="OC_FARNELL" value="432210"/>
+</part>
+<part name="R16" library="adafruit" deviceset="R-US_" device="R0603" value="1K">
+<attribute name="MF" value="MULTICOMP PRO"/>
+<attribute name="MPN" value="MCWR06X1001FTL"/>
+<attribute name="OC_FARNELL" value="2447272RL"/>
+</part>
+<part name="CON1" library="HappyBrackets" library_urn="urn:adsk.eagle:library:18716253" deviceset="RPI-ZERO" device="PI-ZERO-THRUHOLE" package3d_urn="urn:adsk.eagle:package:18716324/1">
+<attribute name="MF" value=""/>
+<attribute name="MPN" value=""/>
+<attribute name="OC_FARNELL" value="unknown"/>
+</part>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="SUPPLY24" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="U6" library="adafruit" deviceset="TXB0104PWR" device="" value="TXB0104PWR">
 <attribute name="MF" value="TEXAS INSTRUMENTS"/>
-<attribute name="MPN" value="TXB0104PWR"/>
+<attribute name="MPN" value="TXB0104PWR ."/>
 <attribute name="OC_FARNELL" value="1607891"/>
 </part>
 <part name="SUPPLY25" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
@@ -8114,12 +8269,24 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-43.18" y="43.18" size="1.778" layer="91" rot="R180">GPIO</text>
 </plain>
 <instances>
-<instance part="U2" gate="G$1" x="43.18" y="43.18" smashed="yes"/>
-<instance part="U5" gate="G$1" x="154.94" y="12.7" smashed="yes"/>
-<instance part="U4" gate="G$1" x="134.62" y="86.36" smashed="yes"/>
+<instance part="U2" gate="G$1" x="43.18" y="43.18" smashed="yes">
+<attribute name="OC_FARNELL" x="43.18" y="43.18" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="43.18" y="43.18" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U5" gate="G$1" x="154.94" y="12.7" smashed="yes">
+<attribute name="OC_FARNELL" x="154.94" y="12.7" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="154.94" y="12.7" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U4" gate="G$1" x="134.62" y="86.36" smashed="yes">
+<attribute name="OC_FARNELL" x="134.62" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="134.62" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U1" gate="G$1" x="27.94" y="121.92" smashed="yes">
 <attribute name="NAME" x="15.24" y="134.62" size="1.27" layer="95"/>
 <attribute name="VALUE" x="15.24" y="106.68" size="1.27" layer="96"/>
+<attribute name="OC_FARNELL" x="27.94" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="27.94" y="121.92" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="27.94" y="121.92" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY2" gate="GND" x="-12.7" y="119.38" smashed="yes">
 <attribute name="VALUE" x="-14.605" y="116.205" size="1.778" layer="96"/>
@@ -8153,10 +8320,16 @@ Source: AVX .. aphvc.pdf</description>
 </instance>
 <instance part="C16" gate="G$1" x="172.72" y="38.1" smashed="yes">
 <attribute name="NAME" x="173.736" y="38.735" size="1.778" layer="95" font="vector"/>
+<attribute name="OC_FARNELL" x="172.72" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="172.72" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="172.72" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C3" gate="G$1" x="73.66" y="45.72" smashed="yes">
 <attribute name="NAME" x="75.184" y="46.101" size="1.778" layer="95"/>
 <attribute name="VALUE" x="75.184" y="41.021" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="73.66" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="73.66" y="45.72" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="73.66" y="45.72" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY11" gate="GND" x="104.14" y="66.04" smashed="yes">
 <attribute name="VALUE" x="102.235" y="62.865" size="1.778" layer="96"/>
@@ -8173,18 +8346,30 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C8" gate="G$1" x="96.52" y="101.6" smashed="yes">
 <attribute name="NAME" x="98.044" y="101.981" size="1.778" layer="95"/>
 <attribute name="VALUE" x="98.044" y="96.901" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="96.52" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="96.52" y="101.6" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="96.52" y="101.6" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C6" gate="G$1" x="88.9" y="91.44" smashed="yes" rot="R180">
 <attribute name="NAME" x="94.996" y="91.059" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="94.996" y="96.139" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="88.9" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="88.9" y="91.44" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="88.9" y="91.44" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C4" gate="G$1" x="78.74" y="106.68" smashed="yes">
 <attribute name="NAME" x="79.756" y="107.315" size="1.778" layer="95"/>
 <attribute name="VALUE" x="79.756" y="115.189" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="78.74" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="78.74" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="78.74" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C5" gate="G$1" x="88.9" y="104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="92.456" y="103.759" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="97.536" y="108.839" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="88.9" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="88.9" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="88.9" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY10" gate="GND" x="83.312" y="97.282" smashed="yes">
 <attribute name="VALUE" x="81.407" y="94.107" size="1.778" layer="96"/>
@@ -8192,18 +8377,30 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C19" gate="G$1" x="187.96" y="106.68" smashed="yes">
 <attribute name="NAME" x="188.976" y="107.315" size="1.778" layer="95"/>
 <attribute name="VALUE" x="188.976" y="102.489" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="187.96" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="187.96" y="106.68" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="187.96" y="106.68" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C20" gate="G$1" x="187.96" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="186.944" y="93.345" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="186.944" y="90.551" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="187.96" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="187.96" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="187.96" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C17" gate="G$1" x="175.26" y="104.14" smashed="yes" rot="R180">
 <attribute name="NAME" x="181.356" y="108.839" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="173.736" y="108.839" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="175.26" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="175.26" y="104.14" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="175.26" y="104.14" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C18" gate="G$1" x="175.26" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="181.356" y="93.599" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="183.896" y="98.679" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="175.26" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="175.26" y="93.98" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="175.26" y="93.98" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V35" gate="G$1" x="185.42" y="111.76" smashed="yes">
 <attribute name="VALUE" x="182.88" y="111.76" size="1.778" layer="96" rot="R180"/>
@@ -8217,26 +8414,44 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R10" gate="G$1" x="101.6" y="83.82" smashed="yes" rot="R180">
 <attribute name="NAME" x="100.33" y="82.3214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="102.87" y="87.122" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="101.6" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="101.6" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="101.6" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R11" gate="G$1" x="106.68" y="78.74" smashed="yes" rot="R180">
 <attribute name="NAME" x="110.49" y="77.2414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="110.49" y="82.042" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="106.68" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="106.68" y="78.74" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="106.68" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C7" gate="G$1" x="81.28" y="53.34" smashed="yes">
 <attribute name="NAME" x="82.804" y="53.721" size="1.778" layer="95"/>
 <attribute name="VALUE" x="82.804" y="48.641" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="81.28" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="81.28" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="81.28" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C9" gate="G$1" x="99.06" y="53.34" smashed="yes">
 <attribute name="NAME" x="100.584" y="53.721" size="1.778" layer="95"/>
 <attribute name="VALUE" x="100.584" y="48.641" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="99.06" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="99.06" y="53.34" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="99.06" y="53.34" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C2" gate="G$1" x="71.12" y="86.36" smashed="yes">
 <attribute name="NAME" x="72.644" y="86.741" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.644" y="81.661" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="71.12" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="71.12" y="86.36" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="71.12" y="86.36" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R7" gate="G$1" x="78.74" y="83.82" smashed="yes" rot="R270">
 <attribute name="NAME" x="82.55" y="80.2386" size="1.778" layer="95"/>
 <attribute name="VALUE" x="82.55" y="83.058" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="78.74" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="78.74" y="83.82" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="78.74" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY9" gate="GND" x="76.2" y="76.2" smashed="yes">
 <attribute name="VALUE" x="74.295" y="73.025" size="1.778" layer="96"/>
@@ -8247,18 +8462,30 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R14" gate="G$1" x="119.38" y="50.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="120.8786" y="49.53" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="116.078" y="52.07" size="1.778" layer="96" rot="R270"/>
+<attribute name="OC_FARNELL" x="119.38" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="119.38" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="119.38" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C10" gate="G$1" x="106.68" y="50.8" smashed="yes">
 <attribute name="NAME" x="108.204" y="51.181" size="1.778" layer="95"/>
 <attribute name="VALUE" x="108.204" y="46.101" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="106.68" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="106.68" y="50.8" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="106.68" y="50.8" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R8" gate="G$1" x="81.28" y="35.56" smashed="yes" rot="R270">
 <attribute name="NAME" x="82.7786" y="34.29" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="77.978" y="36.83" size="1.778" layer="96" rot="R270"/>
+<attribute name="OC_FARNELL" x="81.28" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="81.28" y="35.56" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="81.28" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R9" gate="G$1" x="99.06" y="38.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="100.5586" y="36.83" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="95.758" y="39.37" size="1.778" layer="96" rot="R270"/>
+<attribute name="OC_FARNELL" x="99.06" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="99.06" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="99.06" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="P+5" gate="1" x="154.94" y="43.18" smashed="yes">
 <attribute name="VALUE" x="154.94" y="48.26" size="1.778" layer="96" rot="R180"/>
@@ -8266,14 +8493,23 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C13" gate="G$1" x="142.24" y="38.1" smashed="yes">
 <attribute name="NAME" x="143.764" y="38.481" size="1.778" layer="95"/>
 <attribute name="VALUE" x="143.764" y="33.401" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="142.24" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C14" gate="G$1" x="152.4" y="38.1" smashed="yes">
 <attribute name="NAME" x="153.924" y="38.481" size="1.778" layer="95"/>
 <attribute name="VALUE" x="153.924" y="33.401" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="152.4" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="152.4" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="152.4" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C15" gate="G$1" x="165.1" y="38.1" smashed="yes">
 <attribute name="NAME" x="166.624" y="38.481" size="1.778" layer="95"/>
 <attribute name="VALUE" x="166.624" y="33.401" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="165.1" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="165.1" y="38.1" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="165.1" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY22" gate="GND" x="172.72" y="30.48" smashed="yes">
 <attribute name="VALUE" x="170.815" y="27.305" size="1.778" layer="96"/>
@@ -8287,14 +8523,24 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R12" gate="G$1" x="116.84" y="2.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="124.714" y="5.8674" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="118.11" y="5.842" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="116.84" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="116.84" y="2.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="116.84" y="2.54" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="U3" gate="G$1" x="119.38" y="119.38" smashed="yes"/>
+<instance part="U3" gate="G$1" x="119.38" y="119.38" smashed="yes">
+<attribute name="OC_FARNELL" x="119.38" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="119.38" y="119.38" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="119.38" y="119.38" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY8" gate="GND" x="75.692" y="135.382" smashed="yes">
 <attribute name="VALUE" x="73.787" y="132.207" size="1.778" layer="96"/>
 </instance>
 <instance part="C12" gate="G$1" x="129.54" y="127" smashed="yes" rot="R180">
 <attribute name="NAME" x="135.636" y="131.699" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="128.016" y="131.699" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="129.54" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="129.54" y="127" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="129.54" y="127" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY15" gate="GND" x="131.572" y="120.142" smashed="yes">
 <attribute name="VALUE" x="129.667" y="116.967" size="1.778" layer="96"/>
@@ -8302,10 +8548,16 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="CON3" gate="G$1" x="200.66" y="15.24" smashed="yes">
 <attribute name="NAME" x="205.74" y="22.86" size="1.27" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="200.66" y="5.08" size="1.27" layer="96" font="vector"/>
+<attribute name="OC_FARNELL" x="200.66" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="200.66" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="200.66" y="15.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C11" gate="G$1" x="119.38" y="15.24" smashed="yes" rot="R270">
 <attribute name="NAME" x="114.681" y="21.336" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="114.681" y="13.716" size="1.778" layer="96" rot="R270"/>
+<attribute name="OC_FARNELL" x="119.38" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="119.38" y="15.24" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="119.38" y="15.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY13" gate="GND" x="109.22" y="15.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="106.045" y="17.145" size="1.778" layer="96" rot="R270"/>
@@ -8313,6 +8565,9 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R13" gate="G$1" x="116.84" y="-2.54" smashed="yes" rot="R180">
 <attribute name="NAME" x="124.714" y="0.2794" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="118.11" y="0.762" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="116.84" y="-2.54" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="116.84" y="-2.54" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="116.84" y="-2.54" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY20" gate="GND" x="157.48" y="-12.7" smashed="yes">
 <attribute name="VALUE" x="155.575" y="-15.875" size="1.778" layer="96"/>
@@ -8320,6 +8575,9 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C21" gate="G$1" x="93.98" y="68.58" smashed="yes">
 <attribute name="NAME" x="94.996" y="69.215" size="1.778" layer="95"/>
 <attribute name="VALUE" x="94.996" y="72.009" size="1.778" layer="96"/>
+<attribute name="OC_FARNELL" x="93.98" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="93.98" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="93.98" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY23" gate="GND" x="91.44" y="60.96" smashed="yes">
 <attribute name="VALUE" x="89.535" y="57.785" size="1.778" layer="96"/>
@@ -8327,6 +8585,9 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="C22" gate="G$1" x="86.36" y="68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="89.916" y="68.199" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="94.996" y="73.279" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="86.36" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="86.36" y="68.58" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="86.36" y="68.58" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="+3V1" gate="G$1" x="-81.28" y="106.68" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-81.28" y="104.14" size="1.778" layer="96" rot="R270"/>
@@ -8334,18 +8595,29 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R15" gate="G$1" x="5.08" y="139.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="3.5814" y="135.89" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="8.382" y="135.89" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_FARNELL" x="5.08" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="5.08" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="5.08" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C23" gate="G$1" x="-2.54" y="139.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="3.556" y="144.399" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="-4.064" y="144.399" size="1.778" layer="96" rot="R180"/>
+<attribute name="OC_FARNELL" x="-2.54" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-2.54" y="139.7" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="-2.54" y="139.7" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="R16" gate="G$1" x="15.24" y="144.78" smashed="yes">
 <attribute name="NAME" x="18.8214" y="148.59" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="16.002" y="148.59" size="1.778" layer="96" rot="R90"/>
+<attribute name="OC_FARNELL" x="15.24" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="15.24" y="144.78" size="1.778" layer="96" display="off"/>
+<attribute name="MPN" x="15.24" y="144.78" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="CON1" gate="G$1" x="-50.8" y="96.52" smashed="yes">
 <attribute name="NAME" x="-71.12" y="132.08" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="-71.12" y="130.175" size="1.27" layer="96" font="vector"/>
+<attribute name="OC_FARNELL" x="-50.8" y="96.52" size="1.778" layer="96" display="off"/>
+<attribute name="MF" x="-50.8" y="96.52" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="SUPPLY1" gate="GND" x="-81.28" y="96.52" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-83.947" y="96.901" size="1.778" layer="96" rot="R180"/>
@@ -8369,16 +8641,16 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="+3V2" gate="G$1" x="-66.04" y="45.72" smashed="yes">
 <attribute name="VALUE" x="-63.246" y="48.26" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="J1" gate="G$1" x="-10.16" y="25.4" smashed="yes" rot="MR180">
-<attribute name="OC_FARNELL" x="-10.16" y="25.4" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-10.16" y="25.4" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-10.16" y="25.4" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="-5.08" y="17.78" size="1.27" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="-10.16" y="35.56" size="1.27" layer="96" font="vector" rot="MR180"/>
+<instance part="J1" gate="G$1" x="-5.08" y="22.86" smashed="yes">
+<attribute name="OC_FARNELL" x="-5.08" y="22.86" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MF" x="-5.08" y="22.86" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="-5.08" y="22.86" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="NAME" x="0" y="30.48" size="1.27" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="-5.08" y="12.7" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="SUPPLY27" gate="GND" x="-15.24" y="33.02" smashed="yes" rot="R180"/>
-<instance part="P+6" gate="1" x="-25.4" y="27.94" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-25.4" y="30.48" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY27" gate="GND" x="-10.16" y="15.24" smashed="yes"/>
+<instance part="P+6" gate="1" x="-12.7" y="20.32" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-12.7" y="22.86" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="J3" gate="G$1" x="68.58" y="101.6" smashed="yes" rot="MR180">
 <attribute name="OC_FARNELL" x="68.58" y="101.6" size="1.778" layer="96" display="off"/>
@@ -8387,17 +8659,17 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="73.66" y="93.98" size="1.27" layer="95" font="vector" rot="MR0"/>
 <attribute name="VALUE" x="45.72" y="93.98" size="1.27" layer="96" font="vector" rot="MR180"/>
 </instance>
-<instance part="J2" gate="G$1" x="-20.32" y="7.62" smashed="yes" rot="MR180">
-<attribute name="OC_FARNELL" x="-20.32" y="7.62" size="1.778" layer="96" display="off"/>
-<attribute name="MF" x="-20.32" y="7.62" size="1.778" layer="96" display="off"/>
-<attribute name="MPN" x="-20.32" y="7.62" size="1.778" layer="96" display="off"/>
-<attribute name="NAME" x="-15.24" y="0" size="1.27" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="-27.94" y="-2.54" size="1.27" layer="96" font="vector" rot="MR180"/>
+<instance part="J2" gate="G$1" x="-17.78" y="5.08" smashed="yes">
+<attribute name="OC_FARNELL" x="-17.78" y="5.08" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MF" x="-17.78" y="5.08" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="MPN" x="-17.78" y="5.08" size="1.778" layer="96" rot="MR180" display="off"/>
+<attribute name="NAME" x="-12.7" y="12.7" size="1.27" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="-25.4" y="15.24" size="1.27" layer="96" font="vector"/>
 </instance>
-<instance part="P+7" gate="1" x="-30.48" y="15.24" smashed="yes">
-<attribute name="VALUE" x="-27.94" y="15.24" size="1.778" layer="96" rot="R90"/>
+<instance part="P+7" gate="1" x="-30.48" y="0" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-30.48" y="2.54" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY26" gate="GND" x="-25.4" y="17.78" smashed="yes" rot="R180"/>
+<instance part="SUPPLY26" gate="GND" x="-22.86" y="-2.54" smashed="yes"/>
 <instance part="SUPPLY29" gate="GND" x="-78.74" y="78.74" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-81.407" y="79.121" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -8467,13 +8739,12 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
-<wire x1="-22.86" y1="27.94" x2="-15.24" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
-<wire x1="-25.4" y1="10.16" x2="-30.48" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="2.54" x2="-27.94" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
-<wire x1="-30.48" y1="10.16" x2="-30.48" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-27.94" y1="2.54" x2="-27.94" y2="0" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+5V"/>
@@ -8675,7 +8946,6 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="SUPPLY26" gate="GND" pin="GND"/>
 <pinref part="J2" gate="G$1" pin="4"/>
-<wire x1="-25.4" y1="15.24" x2="-25.4" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CON1" gate="G$1" pin="GND@2"/>
@@ -9062,29 +9332,27 @@ Source: AVX .. aphvc.pdf</description>
 <net name="GPIO25-OUT" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="B1"/>
-<wire x1="-48.26" y1="25.4" x2="-35.56" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="-35.56" y1="25.4" x2="-15.24" y2="25.4" width="0.1524" layer="91"/>
 <label x="-45.72" y="25.4" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="-10.16" y1="25.4" x2="-48.26" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO23-OUT" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="B2"/>
-<wire x1="-48.26" y1="22.86" x2="-30.48" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="-15.24" y1="22.86" x2="-30.48" y2="22.86" width="0.1524" layer="91"/>
 <label x="-45.72" y="22.86" size="1.778" layer="95"/>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="-10.16" y1="22.86" x2="-48.26" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPI022-OUT" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="B3"/>
 <wire x1="-48.26" y1="20.32" x2="-33.02" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="7.62" x2="-33.02" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="-33.02" y1="7.62" x2="-33.02" y2="20.32" width="0.1524" layer="91"/>
 <label x="-45.72" y="20.32" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="-22.86" y1="7.62" x2="-33.02" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO21-OUT" class="0">
@@ -9092,9 +9360,9 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U6" gate="G$1" pin="B4"/>
 <wire x1="-48.26" y1="17.78" x2="-35.56" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-35.56" y1="17.78" x2="-35.56" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="-35.56" y1="5.08" x2="-25.4" y2="5.08" width="0.1524" layer="91"/>
 <label x="-45.72" y="17.78" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="-22.86" y1="5.08" x2="-35.56" y2="5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GPIO23" class="0">
